@@ -1,14 +1,15 @@
 # Dustbound-catalog
 
-Static Catalog API feed for [Dustbound](https://github.com/) (Fortnite Sprites checklist app).
+Static Catalog + Events feeds for [Dustbound](https://github.com/IngeniumSE) (Fortnite Sprites checklist app).
 
-## Feed URL (after GitHub Pages is enabled)
+## Feed URLs
 
 ```text
-https://<github-user>.github.io/Dustbound-catalog/v1/catalog.json
+https://ingeniumse.github.io/Dustbound-catalog/v1/catalog.json
+https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 ```
 
-## Contract
+## Catalog contract
 
 - `schemaVersion` / `catalogVersion`
 - `sprites[]`, `variants[]`, `collectibles[]`
@@ -16,28 +17,32 @@ https://<github-user>.github.io/Dustbound-catalog/v1/catalog.json
 - `availability`: `live` | `vaulted`
 - Never delete published Collectible ids
 
-See Dustbound ADRs / schema tickets in the app repo.
+## Events contract
+
+- `schemaVersion` / `eventsVersion`
+- `events[]` with: `id`, `title`, `summary?`, `startUtc`, `endUtc?`, `spriteIds?`, `collectibleIds?`, `sourceUrl?`
+- **UTC only** in the feed (ISO-8601)
+- Curate by hand; set `sourceUrl` for attribution; **do not scrape X**
+- Bump `eventsVersion` on each publish
 
 ## Publish workflow
 
+### Catalog
 1. Edit source or run `node scripts/generate-catalog.js` if regenerating from the matrix in that script.
 2. Bump `catalogVersion` in `v1/catalog.json`.
 3. Merge to `main`.
 4. GitHub Pages serves the file.
 
-## First feed
+### Events
+1. Edit `v1/events.json` (add/update Event rows; original titles/summaries; UTC times; `sourceUrl`).
+2. Bump `eventsVersion`.
+3. Merge to `main`.
+4. GitHub Pages serves the file.
+
+## First catalog feed
 
 Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 Sprites / 109 Collectibles, `C7S3`, as-of 2026-07-31). All rows `availability: live`. `recallDustCost` values are approximate.
 
-## Enable GitHub Pages (one-time)
+## First events feed
 
-1. Create empty GitHub repo named `Dustbound-catalog` (public).
-2. From this folder:
-
-```bash
-git remote add origin https://github.com/<github-user>/Dustbound-catalog.git
-git push -u origin main
-```
-
-3. Repo **Settings → Pages →** Deploy from branch **`main`** / folder **`/`** (root).
-4. Confirm `https://<github-user>.github.io/Dustbound-catalog/v1/catalog.json` returns JSON.
+`eventsVersion` 1 with empty `events[]` — ready for curated rows.

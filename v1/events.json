@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "eventsVersion": 1,
+  "meta": {
+    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. See Dustbound research 18-event-data-source-publish."
+  },
+  "events": []
+}
