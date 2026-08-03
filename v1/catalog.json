@@ -1,0 +1,1065 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "meta": {
+    "season": "C7S3",
+    "asOf": "2026-07-31",
+    "researched": "2026-08-03",
+    "source": "Dustbound seed research 02-seed-catalog-c7s3 (fortnitespritetracker matrix + Epic/Wiki abilities)",
+    "notes": "recallDustCost values are approximate and may change with patches; update via catalogVersion bumps."
+  },
+  "sprites": [
+    {
+      "id": "water",
+      "name": "Water Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Replenish shield for user + nearby squad while in water"
+    },
+    {
+      "id": "earth",
+      "name": "Earth Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Chance of additional rare items from chests"
+    },
+    {
+      "id": "fire",
+      "name": "Fire Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Fiery burst after dealing enough damage"
+    },
+    {
+      "id": "fishy",
+      "name": "Fishy Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Faster swim; brief move-speed boost when damaged"
+    },
+    {
+      "id": "air",
+      "name": "Air Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Faster sprint, higher jump; nullifies fall damage"
+    },
+    {
+      "id": "duck",
+      "name": "Duck Sprite",
+      "rarity": "Epic",
+      "abilitySummary": "Emoting or Jamming replenishes shield"
+    },
+    {
+      "id": "ghost",
+      "name": "Ghost Sprite",
+      "rarity": "Epic",
+      "abilitySummary": "Cloak for a short duration on reload"
+    },
+    {
+      "id": "demon",
+      "name": "Demon Sprite",
+      "rarity": "Epic",
+      "abilitySummary": "Siphon health + shield on elimination"
+    },
+    {
+      "id": "king",
+      "name": "King Sprite",
+      "rarity": "Epic",
+      "abilitySummary": "Increased Pickaxe damage"
+    },
+    {
+      "id": "aura",
+      "name": "Aura Sprite",
+      "rarity": "Epic",
+      "abilitySummary": "Shock Rock charge after dealing enough damage"
+    },
+    {
+      "id": "striker",
+      "name": "Striker Sprite",
+      "rarity": "Epic",
+      "abilitySummary": "Overdrive on mantle / hurdle / wall scramble"
+    },
+    {
+      "id": "dream",
+      "name": "Dream Sprite",
+      "rarity": "Legendary",
+      "abilitySummary": "Random item each level-up; Legendary loot at max, then auto-extract / reset"
+    },
+    {
+      "id": "punk",
+      "name": "Punk Sprite",
+      "rarity": "Legendary",
+      "abilitySummary": "At high/mastery level, chance of unlimited ammo"
+    },
+    {
+      "id": "boss",
+      "name": "Boss Sprite",
+      "rarity": "Legendary",
+      "abilitySummary": "Boosts max Health and Shield"
+    },
+    {
+      "id": "seven",
+      "name": "Seven Sprite",
+      "rarity": "Legendary",
+      "abilitySummary": "Enemy foot trails visible to nearby squad"
+    },
+    {
+      "id": "llama",
+      "name": "Lootin' Llama Sprite",
+      "rarity": "Legendary",
+      "abilitySummary": "Opening ammo boxes can upgrade weapon"
+    },
+    {
+      "id": "peely",
+      "name": "Peeky Peely Sprite",
+      "rarity": "Legendary",
+      "abilitySummary": "Pings nearby rare Sprite variants / carriers; also reveals you"
+    },
+    {
+      "id": "zero_point",
+      "name": "Zero Point Sprite",
+      "rarity": "Mythic",
+      "abilitySummary": "Shield Bubble Jr. when using a healing item (excl. splashes/grenades)"
+    },
+    {
+      "id": "burnt_peanut",
+      "name": "Burnt Peanut",
+      "rarity": "Mythic",
+      "abilitySummary": "Chance of extra (sometimes Mythic) loot on eliminations"
+    },
+    {
+      "id": "grim",
+      "name": "Grim Sprite",
+      "rarity": "Mythic",
+      "abilitySummary": "Attackers are marked / scanned briefly"
+    },
+    {
+      "id": "batman",
+      "name": "Batman Sprite",
+      "rarity": "Mythic",
+      "abilitySummary": "Launch + deploy Bat Cape midair; better rare Sprite finds"
+    },
+    {
+      "id": "vini_jr",
+      "name": "Vini Jr. Sprite",
+      "rarity": "Mythic",
+      "abilitySummary": "Sprint enables destructive slide; slide-kick buffs fire rate / reload"
+    },
+    {
+      "id": "pollo",
+      "name": "Pollo Sprite",
+      "rarity": "Mythic",
+      "abilitySummary": "Eliminations slowly restore shield for user + nearby squad"
+    },
+    {
+      "id": "john_wick",
+      "name": "John Wick Sprite",
+      "rarity": "Mythic",
+      "abilitySummary": "After knock/elim, briefly reveal nearby enemies to squad"
+    }
+  ],
+  "variants": [
+    {
+      "code": "Base",
+      "bonusSummary": ""
+    },
+    {
+      "code": "Gold",
+      "bonusSummary": "3× bonus XP from eliminations"
+    },
+    {
+      "code": "Gummy",
+      "bonusSummary": "+20% Sprite Dust on successful extraction"
+    },
+    {
+      "code": "Galaxy",
+      "bonusSummary": "+30% ammo when looting"
+    },
+    {
+      "code": "Holofoil",
+      "bonusSummary": "Squad-wide ~5% better chance to find rare Sprite Variants from chests"
+    },
+    {
+      "code": "Gem",
+      "bonusSummary": "−30% fall damage"
+    },
+    {
+      "code": "Quack",
+      "bonusSummary": "When Quack earns Sprite XP, other Sprites in inventory gain +50% of that XP"
+    },
+    {
+      "code": "Cube",
+      "bonusSummary": "Overdrive while in the Storm"
+    }
+  ],
+  "collectibles": [
+    {
+      "id": "water:Base",
+      "spriteId": "water",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "water:Gold",
+      "spriteId": "water",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "water:Gummy",
+      "spriteId": "water",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "water:Galaxy",
+      "spriteId": "water",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "water:Holofoil",
+      "spriteId": "water",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "water:Quack",
+      "spriteId": "water",
+      "variantCode": "Quack",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "earth:Base",
+      "spriteId": "earth",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "earth:Gold",
+      "spriteId": "earth",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "earth:Gummy",
+      "spriteId": "earth",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "earth:Galaxy",
+      "spriteId": "earth",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "earth:Cube",
+      "spriteId": "earth",
+      "variantCode": "Cube",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "earth:Quack",
+      "spriteId": "earth",
+      "variantCode": "Quack",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "fire:Base",
+      "spriteId": "fire",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "fire:Gold",
+      "spriteId": "fire",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "fire:Gummy",
+      "spriteId": "fire",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "fire:Galaxy",
+      "spriteId": "fire",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "fire:Holofoil",
+      "spriteId": "fire",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "fire:Cube",
+      "spriteId": "fire",
+      "variantCode": "Cube",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "fire:Quack",
+      "spriteId": "fire",
+      "variantCode": "Quack",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "fishy:Base",
+      "spriteId": "fishy",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "fishy:Gold",
+      "spriteId": "fishy",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "fishy:Gummy",
+      "spriteId": "fishy",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "fishy:Galaxy",
+      "spriteId": "fishy",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "fishy:Cube",
+      "spriteId": "fishy",
+      "variantCode": "Cube",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "air:Base",
+      "spriteId": "air",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "air:Gold",
+      "spriteId": "air",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 2000
+    },
+    {
+      "id": "air:Gummy",
+      "spriteId": "air",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 2000
+    },
+    {
+      "id": "air:Galaxy",
+      "spriteId": "air",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 2000
+    },
+    {
+      "id": "air:Holofoil",
+      "spriteId": "air",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 2000
+    },
+    {
+      "id": "duck:Base",
+      "spriteId": "duck",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "duck:Gold",
+      "spriteId": "duck",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "duck:Gummy",
+      "spriteId": "duck",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "duck:Galaxy",
+      "spriteId": "duck",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "ghost:Base",
+      "spriteId": "ghost",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "ghost:Gold",
+      "spriteId": "ghost",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "ghost:Gummy",
+      "spriteId": "ghost",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "ghost:Galaxy",
+      "spriteId": "ghost",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "ghost:Holofoil",
+      "spriteId": "ghost",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "demon:Base",
+      "spriteId": "demon",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "demon:Gold",
+      "spriteId": "demon",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "demon:Gummy",
+      "spriteId": "demon",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "demon:Galaxy",
+      "spriteId": "demon",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "king:Base",
+      "spriteId": "king",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "king:Gold",
+      "spriteId": "king",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "king:Gummy",
+      "spriteId": "king",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "king:Galaxy",
+      "spriteId": "king",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "king:Holofoil",
+      "spriteId": "king",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "aura:Base",
+      "spriteId": "aura",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "aura:Gold",
+      "spriteId": "aura",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "aura:Gummy",
+      "spriteId": "aura",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "aura:Galaxy",
+      "spriteId": "aura",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "striker:Base",
+      "spriteId": "striker",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "striker:Gold",
+      "spriteId": "striker",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "striker:Gummy",
+      "spriteId": "striker",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "striker:Galaxy",
+      "spriteId": "striker",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "striker:Holofoil",
+      "spriteId": "striker",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "dream:Base",
+      "spriteId": "dream",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "dream:Gold",
+      "spriteId": "dream",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "dream:Gummy",
+      "spriteId": "dream",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "dream:Galaxy",
+      "spriteId": "dream",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "dream:Cube",
+      "spriteId": "dream",
+      "variantCode": "Cube",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "punk:Base",
+      "spriteId": "punk",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "punk:Gold",
+      "spriteId": "punk",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "punk:Gummy",
+      "spriteId": "punk",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "punk:Galaxy",
+      "spriteId": "punk",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "punk:Cube",
+      "spriteId": "punk",
+      "variantCode": "Cube",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "boss:Base",
+      "spriteId": "boss",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "boss:Gold",
+      "spriteId": "boss",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "boss:Gummy",
+      "spriteId": "boss",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "boss:Galaxy",
+      "spriteId": "boss",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "boss:Cube",
+      "spriteId": "boss",
+      "variantCode": "Cube",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "seven:Base",
+      "spriteId": "seven",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "seven:Gold",
+      "spriteId": "seven",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "seven:Gummy",
+      "spriteId": "seven",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "seven:Galaxy",
+      "spriteId": "seven",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "seven:Holofoil",
+      "spriteId": "seven",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "llama:Base",
+      "spriteId": "llama",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "llama:Gold",
+      "spriteId": "llama",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "llama:Gummy",
+      "spriteId": "llama",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "llama:Galaxy",
+      "spriteId": "llama",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "llama:Gem",
+      "spriteId": "llama",
+      "variantCode": "Gem",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "peely:Base",
+      "spriteId": "peely",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "peely:Gold",
+      "spriteId": "peely",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "peely:Gummy",
+      "spriteId": "peely",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "peely:Galaxy",
+      "spriteId": "peely",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "peely:Holofoil",
+      "spriteId": "peely",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "zero_point:Base",
+      "spriteId": "zero_point",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "zero_point:Gold",
+      "spriteId": "zero_point",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "zero_point:Gummy",
+      "spriteId": "zero_point",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "zero_point:Galaxy",
+      "spriteId": "zero_point",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "zero_point:Holofoil",
+      "spriteId": "zero_point",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "zero_point:Cube",
+      "spriteId": "zero_point",
+      "variantCode": "Cube",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "zero_point:Quack",
+      "spriteId": "zero_point",
+      "variantCode": "Quack",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "burnt_peanut:Base",
+      "spriteId": "burnt_peanut",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "grim:Base",
+      "spriteId": "grim",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "grim:Gold",
+      "spriteId": "grim",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "grim:Gummy",
+      "spriteId": "grim",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "grim:Galaxy",
+      "spriteId": "grim",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "grim:Cube",
+      "spriteId": "grim",
+      "variantCode": "Cube",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "grim:Holofoil",
+      "spriteId": "grim",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "batman:Base",
+      "spriteId": "batman",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "batman:Gold",
+      "spriteId": "batman",
+      "variantCode": "Gold",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "batman:Gummy",
+      "spriteId": "batman",
+      "variantCode": "Gummy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "batman:Galaxy",
+      "spriteId": "batman",
+      "variantCode": "Galaxy",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "batman:Holofoil",
+      "spriteId": "batman",
+      "variantCode": "Holofoil",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "batman:Cube",
+      "spriteId": "batman",
+      "variantCode": "Cube",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000
+    },
+    {
+      "id": "vini_jr:Base",
+      "spriteId": "vini_jr",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "pollo:Base",
+      "spriteId": "pollo",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "john_wick:Base",
+      "spriteId": "john_wick",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    }
+  ]
+}
