@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const schemaVersion = 1;
-const catalogVersion = 1;
+const catalogVersion = 2;
 
 const variants = [
   { code: "Base", bonusSummary: "" },
@@ -41,6 +41,7 @@ const sprites = [
   { id: "vini_jr", name: "Vini Jr. Sprite", rarity: "Mythic", abilitySummary: "Sprint enables destructive slide; slide-kick buffs fire rate / reload" },
   { id: "pollo", name: "Pollo Sprite", rarity: "Mythic", abilitySummary: "Eliminations slowly restore shield for user + nearby squad" },
   { id: "john_wick", name: "John Wick Sprite", rarity: "Mythic", abilitySummary: "After knock/elim, briefly reveal nearby enemies to squad" },
+  { id: "ironmouse", name: "Ironmouse Sprite", rarity: "Mythic", abilitySummary: "While regenerating, gain Cloak and low gravity" },
 ];
 
 // spriteId -> variant codes (seed matrix 2026-07-31)
@@ -69,6 +70,7 @@ const matrix = {
   vini_jr: ["Base"],
   pollo: ["Base"],
   john_wick: ["Base"],
+  ironmouse: ["Base"],
 };
 
 function recallDustCost(spriteId, variantCode) {
@@ -92,8 +94,8 @@ for (const [spriteId, codes] of Object.entries(matrix)) {
   }
 }
 
-if (sprites.length !== 24) throw new Error(`expected 24 sprites, got ${sprites.length}`);
-if (collectibles.length !== 109) throw new Error(`expected 109 collectibles, got ${collectibles.length}`);
+if (sprites.length !== 25) throw new Error(`expected 25 sprites, got ${sprites.length}`);
+if (collectibles.length !== 110) throw new Error(`expected 110 collectibles, got ${collectibles.length}`);
 
 const doc = {
   schemaVersion,

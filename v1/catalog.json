@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 1,
+  "catalogVersion": 2,
   "meta": {
     "season": "C7S3",
     "asOf": "2026-07-31",
@@ -152,6 +152,12 @@
       "name": "John Wick Sprite",
       "rarity": "Mythic",
       "abilitySummary": "After knock/elim, briefly reveal nearby enemies to squad"
+    },
+    {
+      "id": "ironmouse",
+      "name": "Ironmouse Sprite",
+      "rarity": "Mythic",
+      "abilitySummary": "While regenerating, gain Cloak and low gravity"
     }
   ],
   "variants": [
@@ -1056,6 +1062,14 @@
     {
       "id": "john_wick:Base",
       "spriteId": "john_wick",
+      "variantCode": "Base",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 100
+    },
+    {
+      "id": "ironmouse:Base",
+      "spriteId": "ironmouse",
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
