@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 3,
+  "eventsVersion": 4,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -22,11 +22,11 @@
       "collectibleIds": ["peely:Holofoil", "peely:Gummy"]
     },
     {
-      "id": "peely-hour-2026-08-05-16",
+      "id": "peely-hour-2026-08-05-04",
       "title": "Peely Hour",
       "summary": "Holofoil and Gummy Peeky Peely variants.",
-      "startUtc": "2026-08-05T16:00:00Z",
-      "endUtc": "2026-08-05T17:00:00Z",
+      "startUtc": "2026-08-05T04:00:00Z",
+      "endUtc": "2026-08-05T05:00:00Z",
       "spriteIds": ["peely"],
       "collectibleIds": ["peely:Holofoil", "peely:Gummy"]
     },
@@ -40,11 +40,11 @@
       "collectibleIds": ["peely:Gold", "peely:Galaxy"]
     },
     {
-      "id": "peely-hour-2026-08-06-16",
+      "id": "peely-hour-2026-08-06-04",
       "title": "Peely Hour",
       "summary": "Gold and Galaxy Peeky Peely variants.",
-      "startUtc": "2026-08-06T16:00:00Z",
-      "endUtc": "2026-08-06T17:00:00Z",
+      "startUtc": "2026-08-06T04:00:00Z",
+      "endUtc": "2026-08-06T05:00:00Z",
       "spriteIds": ["peely"],
       "collectibleIds": ["peely:Gold", "peely:Galaxy"]
     },
