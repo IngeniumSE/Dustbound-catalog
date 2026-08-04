@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 3,
+  "catalogVersion": 4,
   "meta": {
     "season": "C7S3",
-    "asOf": "2026-07-31",
-    "researched": "2026-08-03",
+    "asOf": "2026-08-06",
+    "researched": "2026-08-04",
     "source": "Dustbound seed research 02-seed-catalog-c7s3 (fortnitespritetracker matrix + Epic/Wiki abilities)",
     "notes": "recallDustCost values are approximate and may change with patches; update via catalogVersion bumps."
   },
@@ -244,6 +244,15 @@
       "recallDustCost": 4000
     },
     {
+      "id": "water:Gem",
+      "spriteId": "water",
+      "variantCode": "Gem",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000,
+      "releaseDate": "2026-08-06T13:00:00Z"
+    },
+    {
       "id": "earth:Base",
       "spriteId": "earth",
       "variantCode": "Base",
@@ -290,6 +299,15 @@
       "seasonTag": "C7S3",
       "availability": "live",
       "recallDustCost": 4000
+    },
+    {
+      "id": "earth:Gem",
+      "spriteId": "earth",
+      "variantCode": "Gem",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000,
+      "releaseDate": "2026-08-06T13:00:00Z"
     },
     {
       "id": "fire:Base",
@@ -460,6 +478,15 @@
       "recallDustCost": 4000
     },
     {
+      "id": "duck:Gem",
+      "spriteId": "duck",
+      "variantCode": "Gem",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000,
+      "releaseDate": "2026-08-06T13:00:00Z"
+    },
+    {
       "id": "ghost:Base",
       "spriteId": "ghost",
       "variantCode": "Base",
@@ -532,6 +559,15 @@
       "recallDustCost": 4000
     },
     {
+      "id": "demon:Gem",
+      "spriteId": "demon",
+      "variantCode": "Gem",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000,
+      "releaseDate": "2026-08-06T13:00:00Z"
+    },
+    {
       "id": "king:Base",
       "spriteId": "king",
       "variantCode": "Base",
@@ -602,6 +638,15 @@
       "seasonTag": "C7S3",
       "availability": "live",
       "recallDustCost": 4000
+    },
+    {
+      "id": "aura:Gem",
+      "spriteId": "aura",
+      "variantCode": "Gem",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000,
+      "releaseDate": "2026-08-06T13:00:00Z"
     },
     {
       "id": "striker:Base",
@@ -724,6 +769,15 @@
       "recallDustCost": 4000
     },
     {
+      "id": "punk:Gem",
+      "spriteId": "punk",
+      "variantCode": "Gem",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000,
+      "releaseDate": "2026-08-06T13:00:00Z"
+    },
+    {
       "id": "boss:Base",
       "spriteId": "boss",
       "variantCode": "Base",
@@ -841,7 +895,8 @@
       "variantCode": "Gem",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "releaseDate": "2026-08-06T13:00:00Z"
     },
     {
       "id": "peely:Base",
@@ -940,6 +995,15 @@
       "recallDustCost": 4000
     },
     {
+      "id": "zero_point:Gem",
+      "spriteId": "zero_point",
+      "variantCode": "Gem",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000,
+      "releaseDate": "2026-08-06T13:00:00Z"
+    },
+    {
       "id": "burnt_peanut:Base",
       "spriteId": "burnt_peanut",
       "variantCode": "Base",
@@ -994,6 +1058,15 @@
       "seasonTag": "C7S3",
       "availability": "live",
       "recallDustCost": 4000
+    },
+    {
+      "id": "grim:Gem",
+      "spriteId": "grim",
+      "variantCode": "Gem",
+      "seasonTag": "C7S3",
+      "availability": "live",
+      "recallDustCost": 4000,
+      "releaseDate": "2026-08-06T13:00:00Z"
     },
     {
       "id": "batman:Base",
@@ -1073,7 +1146,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 6750
+      "recallDustCost": 6750,
+      "releaseDate": "2026-08-04T13:00:00Z"
     }
   ]
 }

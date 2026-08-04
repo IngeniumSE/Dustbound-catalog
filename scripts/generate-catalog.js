@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const schemaVersion = 1;
-const catalogVersion = 3;
+const catalogVersion = 4;
 
 const variants = [
   { code: "Base", bonusSummary: "" },
@@ -44,33 +44,47 @@ const sprites = [
   { id: "ironmouse", name: "Ironmouse Sprite", rarity: "Mythic", abilitySummary: "While regenerating, gain Cloak and low gravity" },
 ];
 
-// spriteId -> variant codes (seed matrix 2026-07-31)
+// spriteId -> variant codes
 const matrix = {
-  water: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil", "Quack"],
-  earth: ["Base", "Gold", "Gummy", "Galaxy", "Cube", "Quack"],
+  water: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil", "Quack", "Gem"],
+  earth: ["Base", "Gold", "Gummy", "Galaxy", "Cube", "Quack", "Gem"],
   fire: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil", "Cube", "Quack"],
   fishy: ["Base", "Gold", "Gummy", "Galaxy", "Cube"],
   air: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil"],
-  duck: ["Base", "Gold", "Gummy", "Galaxy"],
+  duck: ["Base", "Gold", "Gummy", "Galaxy", "Gem"],
   ghost: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil"],
-  demon: ["Base", "Gold", "Gummy", "Galaxy"],
+  demon: ["Base", "Gold", "Gummy", "Galaxy", "Gem"],
   king: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil"],
-  aura: ["Base", "Gold", "Gummy", "Galaxy"],
+  aura: ["Base", "Gold", "Gummy", "Galaxy", "Gem"],
   striker: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil"],
   dream: ["Base", "Gold", "Gummy", "Galaxy", "Cube"],
-  punk: ["Base", "Gold", "Gummy", "Galaxy", "Cube"],
+  punk: ["Base", "Gold", "Gummy", "Galaxy", "Cube", "Gem"],
   boss: ["Base", "Gold", "Gummy", "Galaxy", "Cube"],
   seven: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil"],
   llama: ["Base", "Gold", "Gummy", "Galaxy", "Gem"],
   peely: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil"],
-  zero_point: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil", "Cube", "Quack"],
+  zero_point: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil", "Cube", "Quack", "Gem"],
   burnt_peanut: ["Base"],
-  grim: ["Base", "Gold", "Gummy", "Galaxy", "Cube", "Holofoil"],
+  grim: ["Base", "Gold", "Gummy", "Galaxy", "Cube", "Holofoil", "Gem"],
   batman: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil", "Cube"],
   vini_jr: ["Base"],
   pollo: ["Base"],
   john_wick: ["Base"],
   ironmouse: ["Base"],
+};
+
+/** Optional per-collectible releaseDate (ISO-8601 UTC). */
+const releaseDates = {
+  "water:Gem": "2026-08-06T13:00:00Z",
+  "earth:Gem": "2026-08-06T13:00:00Z",
+  "duck:Gem": "2026-08-06T13:00:00Z",
+  "demon:Gem": "2026-08-06T13:00:00Z",
+  "aura:Gem": "2026-08-06T13:00:00Z",
+  "llama:Gem": "2026-08-06T13:00:00Z",
+  "punk:Gem": "2026-08-06T13:00:00Z",
+  "zero_point:Gem": "2026-08-06T13:00:00Z",
+  "grim:Gem": "2026-08-06T13:00:00Z",
+  "ironmouse:Base": "2026-08-04T13:00:00Z",
 };
 
 function recallDustCost(spriteId, variantCode) {
@@ -84,27 +98,32 @@ function recallDustCost(spriteId, variantCode) {
 const collectibles = [];
 for (const [spriteId, codes] of Object.entries(matrix)) {
   for (const variantCode of codes) {
-    collectibles.push({
-      id: `${spriteId}:${variantCode}`,
+    const id = `${spriteId}:${variantCode}`;
+    const row = {
+      id,
       spriteId,
       variantCode,
       seasonTag: "C7S3",
       availability: "live",
       recallDustCost: recallDustCost(spriteId, variantCode),
-    });
+    };
+    if (releaseDates[id]) {
+      row.releaseDate = releaseDates[id];
+    }
+    collectibles.push(row);
   }
 }
 
 if (sprites.length !== 25) throw new Error(`expected 25 sprites, got ${sprites.length}`);
-if (collectibles.length !== 110) throw new Error(`expected 110 collectibles, got ${collectibles.length}`);
+if (collectibles.length !== 118) throw new Error(`expected 118 collectibles, got ${collectibles.length}`);
 
 const doc = {
   schemaVersion,
   catalogVersion,
   meta: {
     season: "C7S3",
-    asOf: "2026-07-31",
-    researched: "2026-08-03",
+    asOf: "2026-08-06",
+    researched: "2026-08-04",
     source: "Dustbound seed research 02-seed-catalog-c7s3 (fortnitespritetracker matrix + Epic/Wiki abilities)",
     notes: "recallDustCost values are approximate and may change with patches; update via catalogVersion bumps.",
   },
