@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const schemaVersion = 1;
-const catalogVersion = 2;
+const catalogVersion = 3;
 
 const variants = [
   { code: "Base", bonusSummary: "" },
@@ -74,6 +74,7 @@ const matrix = {
 };
 
 function recallDustCost(spriteId, variantCode) {
+  if (spriteId === "ironmouse") return 6750;
   if (variantCode === "Base") return 100;
   // Air specials often cheaper per guides; others ~4000 (patch-variable)
   if (spriteId === "air") return 2000;

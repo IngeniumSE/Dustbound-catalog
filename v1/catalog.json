@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 2,
+  "catalogVersion": 3,
   "meta": {
     "season": "C7S3",
     "asOf": "2026-07-31",
@@ -1073,7 +1073,7 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 6750
     }
   ]
 }
