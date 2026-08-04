@@ -43,6 +43,6 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 
 Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 Sprites / 109 Collectibles, `C7S3`, as-of 2026-07-31). All rows `availability: live`. `recallDustCost` values are approximate.
 
-## First events feed
+## Events feed
 
-`eventsVersion` 1 with empty `events[]` — ready for curated rows.
+`eventsVersion` 2 includes sample curated rows for Dustbound UI/dev (past / active / upcoming). Replace with real windows before store publish; always bump `eventsVersion` on publish.
