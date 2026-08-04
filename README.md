@@ -22,6 +22,7 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 - `schemaVersion` / `eventsVersion`
 - `events[]` with: `id`, `title`, `summary?`, `startUtc`, `endUtc?`, `spriteIds?`, `collectibleIds?`, `sourceUrl?`
 - **UTC only** in the feed (ISO-8601)
+- Omit `endUtc` when the window runs until the same clock time next day — the app treats missing end as `startUtc + 1 day`
 - Curate by hand; set `sourceUrl` for attribution; **do not scrape X**
 - Bump `eventsVersion` on each publish
 
@@ -45,4 +46,4 @@ Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 S
 
 ## Events feed
 
-`eventsVersion` 2 includes sample curated rows for Dustbound UI/dev (past / active / upcoming). Replace with real windows before store publish; always bump `eventsVersion` on publish.
+`eventsVersion` 3 curated windows (Mastery Monday, Peely Hour, New Sprites, Gem Hours). Always bump `eventsVersion` on publish.

@@ -1,55 +1,87 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 2,
+  "eventsVersion": 3,
   "meta": {
-    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. Sample rows for Dustbound UI/dev — replace with real curated windows before store publish."
+    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
   "events": [
     {
-      "id": "sample-past-water-spotlight",
-      "title": "Water Sprite spotlight",
-      "summary": "Sample past window highlighting Water Sprite Collectibles.",
-      "startUtc": "2026-07-28T18:00:00Z",
-      "endUtc": "2026-07-28T19:00:00Z",
-      "spriteIds": ["water"],
-      "collectibleIds": ["water:Base", "water:Gold"],
-      "sourceUrl": "https://github.com/IngeniumSE/Dustbound-catalog"
+      "id": "mastery-monday-2026-08-03",
+      "title": "Mastery Monday",
+      "summary": "Mastery Monday window.",
+      "startUtc": "2026-08-03T13:00:00Z",
+      "endUtc": "2026-08-04T13:00:00Z"
     },
     {
-      "id": "sample-active-power-hour",
-      "title": "Sprite Power Hour",
-      "summary": "Sample active window — bump times if you need a live ACTIVE badge while testing.",
-      "startUtc": "2026-08-04T08:00:00Z",
-      "endUtc": "2026-08-04T20:00:00Z",
-      "spriteIds": ["fire", "water", "earth"],
-      "sourceUrl": "https://github.com/IngeniumSE/Dustbound-catalog"
+      "id": "peely-hour-2026-08-04-20",
+      "title": "Peely Hour",
+      "summary": "Holofoil and Gummy Peeky Peely variants.",
+      "startUtc": "2026-08-04T20:00:00Z",
+      "endUtc": "2026-08-04T21:00:00Z",
+      "spriteIds": ["peely"],
+      "collectibleIds": ["peely:Holofoil", "peely:Gummy"]
     },
     {
-      "id": "sample-upcoming-gold-drop",
-      "title": "Gold Variant focus",
-      "summary": "Sample upcoming drop window for Gold treatments.",
-      "startUtc": "2026-08-06T17:00:00Z",
-      "endUtc": "2026-08-06T19:00:00Z",
-      "spriteIds": ["ghost", "demon"],
-      "collectibleIds": ["ghost:Gold", "demon:Gold"],
-      "sourceUrl": "https://github.com/IngeniumSE/Dustbound-catalog"
+      "id": "peely-hour-2026-08-05-16",
+      "title": "Peely Hour",
+      "summary": "Holofoil and Gummy Peeky Peely variants.",
+      "startUtc": "2026-08-05T16:00:00Z",
+      "endUtc": "2026-08-05T17:00:00Z",
+      "spriteIds": ["peely"],
+      "collectibleIds": ["peely:Holofoil", "peely:Gummy"]
     },
     {
-      "id": "sample-upcoming-holofoil-weekend",
-      "title": "Holofoil weekend",
-      "summary": "Sample multi-day Holofoil Collectible window.",
-      "startUtc": "2026-08-08T16:00:00Z",
-      "endUtc": "2026-08-10T04:00:00Z",
-      "collectibleIds": ["water:Holofoil", "fire:Holofoil", "air:Holofoil"],
-      "sourceUrl": "https://github.com/IngeniumSE/Dustbound-catalog"
+      "id": "peely-hour-2026-08-05-20",
+      "title": "Peely Hour",
+      "summary": "Gold and Galaxy Peeky Peely variants.",
+      "startUtc": "2026-08-05T20:00:00Z",
+      "endUtc": "2026-08-05T21:00:00Z",
+      "spriteIds": ["peely"],
+      "collectibleIds": ["peely:Gold", "peely:Galaxy"]
     },
     {
-      "id": "sample-upcoming-zero-point",
-      "title": "Zero Point Sprite check-in",
-      "summary": "Sample upcoming Event with a point-in-time start (no endUtc).",
-      "startUtc": "2026-08-12T21:00:00Z",
-      "spriteIds": ["zero_point"],
-      "sourceUrl": "https://github.com/IngeniumSE/Dustbound-catalog"
+      "id": "peely-hour-2026-08-06-16",
+      "title": "Peely Hour",
+      "summary": "Gold and Galaxy Peeky Peely variants.",
+      "startUtc": "2026-08-06T16:00:00Z",
+      "endUtc": "2026-08-06T17:00:00Z",
+      "spriteIds": ["peely"],
+      "collectibleIds": ["peely:Gold", "peely:Galaxy"]
+    },
+    {
+      "id": "new-sprites-2026-08-06",
+      "title": "New Sprites",
+      "summary": "Gem variant focus.",
+      "startUtc": "2026-08-06T13:00:00Z",
+      "collectibleIds": [
+        "water:Gem",
+        "earth:Gem",
+        "duck:Gem",
+        "demon:Gem",
+        "aura:Gem",
+        "punk:Gem",
+        "llama:Gem",
+        "zero_point:Gem",
+        "grim:Gem"
+      ]
+    },
+    {
+      "id": "gem-hours-2026-08-10",
+      "title": "Gem Hours",
+      "summary": "Gem variant focus.",
+      "startUtc": "2026-08-10T18:00:00Z",
+      "endUtc": "2026-08-10T20:00:00Z",
+      "collectibleIds": [
+        "water:Gem",
+        "earth:Gem",
+        "duck:Gem",
+        "demon:Gem",
+        "aura:Gem",
+        "punk:Gem",
+        "llama:Gem",
+        "zero_point:Gem",
+        "grim:Gem"
+      ]
     }
   ]
 }
