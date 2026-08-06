@@ -46,4 +46,4 @@ Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 S
 
 ## Events feed
 
-`eventsVersion` 5 curated windows (Mastery Monday, Peely Hour, New Sprites, Gem Hours, Fortnite: Override). Always bump `eventsVersion` on publish.
+`eventsVersion` 6 curated windows (Mastery Monday, New Sprites, Gem Hours, Fortnite: Override). Always bump `eventsVersion` on publish.
