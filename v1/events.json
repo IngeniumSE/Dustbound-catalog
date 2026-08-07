@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 7,
+  "eventsVersion": 8,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -39,7 +39,7 @@
     {
       "id": "gem-hours-2026-08-10",
       "title": "Gem Hours",
-      "summary": "Gem variant focus.",
+      "summary": "Gem variant focus. All weapons are mythic. Mythic Goldfish can drop from chests. Everyone starts with Self-Revive.",
       "startUtc": "2026-08-10T18:00:00Z",
       "endUtc": "2026-08-10T20:00:00Z",
       "collectibleIds": [
