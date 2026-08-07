@@ -15,6 +15,8 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 - `sprites[]`, `variants[]`, `collectibles[]`
 - Collectible id: `{spriteSlug}:{variantCode}`
 - `availability`: `live` | `vaulted`
+- `recallDustCost`: Sprite Dust to recall/summon that Collectible
+- `dropChancePercent` (optional): Sprite Chest drop chance as a percent number (e.g. `4.45` = 4.45%); omit when unknown
 - Never delete published Collectible ids
 
 ## Events contract

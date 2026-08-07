@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 4,
+  "catalogVersion": 6,
   "meta": {
     "season": "C7S3",
-    "asOf": "2026-08-06",
-    "researched": "2026-08-04",
-    "source": "Dustbound seed research 02-seed-catalog-c7s3 (fortnitespritetracker matrix + Epic/Wiki abilities)",
-    "notes": "recallDustCost values are approximate and may change with patches; update via catalogVersion bumps."
+    "asOf": "2026-08-07",
+    "researched": "2026-08-07",
+    "source": "fortnite.gg/sprites scrape 2026-08-07 (dropChancePercent + recallDustCost)",
+    "notes": "recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem vaulted (not listed on fortnite.gg)."
   },
   "sprites": [
     {
@@ -201,7 +201,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 100,
+      "dropChancePercent": 0
     },
     {
       "id": "water:Gold",
@@ -209,7 +210,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "water:Gummy",
@@ -217,7 +219,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "water:Galaxy",
@@ -225,7 +228,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.43
     },
     {
       "id": "water:Holofoil",
@@ -233,7 +237,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "water:Quack",
@@ -241,7 +246,8 @@
       "variantCode": "Quack",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0
     },
     {
       "id": "water:Gem",
@@ -249,8 +255,9 @@
       "variantCode": "Gem",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000,
-      "releaseDate": "2026-08-06T13:00:00Z"
+      "recallDustCost": 2700,
+      "releaseDate": "2026-08-06T13:00:00Z",
+      "dropChancePercent": 0.37
     },
     {
       "id": "earth:Base",
@@ -258,7 +265,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 100,
+      "dropChancePercent": 0
     },
     {
       "id": "earth:Gold",
@@ -266,7 +274,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "earth:Gummy",
@@ -274,7 +283,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "earth:Galaxy",
@@ -282,7 +292,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.43
     },
     {
       "id": "earth:Cube",
@@ -290,7 +301,8 @@
       "variantCode": "Cube",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.21
     },
     {
       "id": "earth:Quack",
@@ -298,7 +310,8 @@
       "variantCode": "Quack",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0
     },
     {
       "id": "earth:Gem",
@@ -306,8 +319,9 @@
       "variantCode": "Gem",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000,
-      "releaseDate": "2026-08-06T13:00:00Z"
+      "recallDustCost": 2700,
+      "releaseDate": "2026-08-06T13:00:00Z",
+      "dropChancePercent": 0.37
     },
     {
       "id": "fire:Base",
@@ -315,7 +329,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 100,
+      "dropChancePercent": 0
     },
     {
       "id": "fire:Gold",
@@ -323,7 +338,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "fire:Gummy",
@@ -331,7 +347,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "fire:Galaxy",
@@ -339,7 +356,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.43
     },
     {
       "id": "fire:Holofoil",
@@ -347,7 +365,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "fire:Cube",
@@ -355,7 +374,8 @@
       "variantCode": "Cube",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.21
     },
     {
       "id": "fire:Quack",
@@ -363,7 +383,8 @@
       "variantCode": "Quack",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0
     },
     {
       "id": "fishy:Base",
@@ -371,7 +392,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 1800,
+      "dropChancePercent": 0
     },
     {
       "id": "fishy:Gold",
@@ -379,7 +401,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.64
     },
     {
       "id": "fishy:Gummy",
@@ -387,7 +410,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "fishy:Galaxy",
@@ -395,7 +419,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.43
     },
     {
       "id": "fishy:Cube",
@@ -403,7 +428,8 @@
       "variantCode": "Cube",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.21
     },
     {
       "id": "air:Base",
@@ -411,7 +437,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 1800,
+      "dropChancePercent": 0
     },
     {
       "id": "air:Gold",
@@ -419,7 +446,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 2000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "air:Gummy",
@@ -427,7 +455,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 2000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "air:Galaxy",
@@ -435,7 +464,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 2000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.43
     },
     {
       "id": "air:Holofoil",
@@ -443,7 +473,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 2000
+      "recallDustCost": 2700,
+      "dropChancePercent": 0.53
     },
     {
       "id": "duck:Base",
@@ -451,7 +482,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 2700,
+      "dropChancePercent": 6.48
     },
     {
       "id": "duck:Gold",
@@ -459,7 +491,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.62
     },
     {
       "id": "duck:Gummy",
@@ -467,7 +500,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.37
     },
     {
       "id": "duck:Galaxy",
@@ -475,7 +509,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.25
     },
     {
       "id": "duck:Gem",
@@ -484,7 +519,8 @@
       "seasonTag": "C7S3",
       "availability": "live",
       "recallDustCost": 4000,
-      "releaseDate": "2026-08-06T13:00:00Z"
+      "releaseDate": "2026-08-06T13:00:00Z",
+      "dropChancePercent": 0.1
     },
     {
       "id": "ghost:Base",
@@ -492,7 +528,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 2700,
+      "dropChancePercent": 5.25
     },
     {
       "id": "ghost:Gold",
@@ -500,7 +537,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.62
     },
     {
       "id": "ghost:Gummy",
@@ -508,7 +546,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.37
     },
     {
       "id": "ghost:Galaxy",
@@ -516,7 +555,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.25
     },
     {
       "id": "ghost:Holofoil",
@@ -524,7 +564,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 1.23
     },
     {
       "id": "demon:Base",
@@ -532,7 +573,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 2700,
+      "dropChancePercent": 6.48
     },
     {
       "id": "demon:Gold",
@@ -540,7 +582,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.62
     },
     {
       "id": "demon:Gummy",
@@ -548,7 +591,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.37
     },
     {
       "id": "demon:Galaxy",
@@ -556,7 +600,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.25
     },
     {
       "id": "demon:Gem",
@@ -565,7 +610,8 @@
       "seasonTag": "C7S3",
       "availability": "live",
       "recallDustCost": 4000,
-      "releaseDate": "2026-08-06T13:00:00Z"
+      "releaseDate": "2026-08-06T13:00:00Z",
+      "dropChancePercent": 0.1
     },
     {
       "id": "king:Base",
@@ -573,7 +619,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 2700,
+      "dropChancePercent": 5.25
     },
     {
       "id": "king:Gold",
@@ -581,7 +628,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.62
     },
     {
       "id": "king:Gummy",
@@ -589,7 +637,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.37
     },
     {
       "id": "king:Galaxy",
@@ -597,7 +646,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.25
     },
     {
       "id": "king:Holofoil",
@@ -605,7 +655,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 1.23
     },
     {
       "id": "aura:Base",
@@ -613,7 +664,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 2700,
+      "dropChancePercent": 6.48
     },
     {
       "id": "aura:Gold",
@@ -621,7 +673,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.62
     },
     {
       "id": "aura:Gummy",
@@ -629,7 +682,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.37
     },
     {
       "id": "aura:Galaxy",
@@ -637,7 +691,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.25
     },
     {
       "id": "aura:Gem",
@@ -646,7 +701,8 @@
       "seasonTag": "C7S3",
       "availability": "live",
       "recallDustCost": 4000,
-      "releaseDate": "2026-08-06T13:00:00Z"
+      "releaseDate": "2026-08-06T13:00:00Z",
+      "dropChancePercent": 0.08
     },
     {
       "id": "striker:Base",
@@ -654,7 +710,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 2700,
+      "dropChancePercent": 5.25
     },
     {
       "id": "striker:Gold",
@@ -662,7 +719,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.62
     },
     {
       "id": "striker:Gummy",
@@ -670,7 +728,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.37
     },
     {
       "id": "striker:Galaxy",
@@ -678,7 +737,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 0.25
     },
     {
       "id": "striker:Holofoil",
@@ -686,7 +746,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 4000,
+      "dropChancePercent": 1.23
     },
     {
       "id": "dream:Base",
@@ -694,7 +755,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 4500,
+      "dropChancePercent": 4.45
     },
     {
       "id": "dream:Gold",
@@ -702,7 +764,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.43
     },
     {
       "id": "dream:Gummy",
@@ -710,7 +773,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.26
     },
     {
       "id": "dream:Galaxy",
@@ -718,7 +782,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.17
     },
     {
       "id": "dream:Cube",
@@ -726,7 +791,8 @@
       "variantCode": "Cube",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.04
     },
     {
       "id": "punk:Base",
@@ -734,7 +800,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 4500,
+      "dropChancePercent": 4.45
     },
     {
       "id": "punk:Gold",
@@ -742,7 +809,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.43
     },
     {
       "id": "punk:Gummy",
@@ -750,7 +818,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.26
     },
     {
       "id": "punk:Galaxy",
@@ -758,7 +827,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.17
     },
     {
       "id": "punk:Cube",
@@ -766,14 +836,15 @@
       "variantCode": "Cube",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.04
     },
     {
       "id": "punk:Gem",
       "spriteId": "punk",
       "variantCode": "Gem",
       "seasonTag": "C7S3",
-      "availability": "live",
+      "availability": "vaulted",
       "recallDustCost": 4000,
       "releaseDate": "2026-08-06T13:00:00Z"
     },
@@ -783,7 +854,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 4500,
+      "dropChancePercent": 4.45
     },
     {
       "id": "boss:Gold",
@@ -791,7 +863,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.43
     },
     {
       "id": "boss:Gummy",
@@ -799,7 +872,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.26
     },
     {
       "id": "boss:Galaxy",
@@ -807,7 +881,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.17
     },
     {
       "id": "boss:Cube",
@@ -815,7 +890,8 @@
       "variantCode": "Cube",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.04
     },
     {
       "id": "seven:Base",
@@ -823,7 +899,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 4500,
+      "dropChancePercent": 3.63
     },
     {
       "id": "seven:Gold",
@@ -831,7 +908,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.43
     },
     {
       "id": "seven:Gummy",
@@ -839,7 +917,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.26
     },
     {
       "id": "seven:Galaxy",
@@ -847,7 +926,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.17
     },
     {
       "id": "seven:Holofoil",
@@ -855,7 +935,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.85
     },
     {
       "id": "llama:Base",
@@ -863,7 +944,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 4500,
+      "dropChancePercent": 4.45
     },
     {
       "id": "llama:Gold",
@@ -871,7 +953,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.43
     },
     {
       "id": "llama:Gummy",
@@ -879,7 +962,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.26
     },
     {
       "id": "llama:Galaxy",
@@ -887,7 +971,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.17
     },
     {
       "id": "llama:Gem",
@@ -895,8 +980,9 @@
       "variantCode": "Gem",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000,
-      "releaseDate": "2026-08-06T13:00:00Z"
+      "recallDustCost": 6750,
+      "releaseDate": "2026-08-06T13:00:00Z",
+      "dropChancePercent": 0
     },
     {
       "id": "peely:Base",
@@ -904,7 +990,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 4500,
+      "dropChancePercent": 4.62
     },
     {
       "id": "peely:Gold",
@@ -912,7 +999,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.43
     },
     {
       "id": "peely:Gummy",
@@ -920,7 +1008,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.26
     },
     {
       "id": "peely:Galaxy",
@@ -928,7 +1017,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.17
     },
     {
       "id": "peely:Holofoil",
@@ -936,7 +1026,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.85
     },
     {
       "id": "zero_point:Base",
@@ -944,7 +1035,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 6750,
+      "dropChancePercent": 0
     },
     {
       "id": "zero_point:Gold",
@@ -952,7 +1044,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.00014
     },
     {
       "id": "zero_point:Gummy",
@@ -960,7 +1053,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.000085
     },
     {
       "id": "zero_point:Galaxy",
@@ -968,7 +1062,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.000056
     },
     {
       "id": "zero_point:Holofoil",
@@ -976,7 +1071,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.00028
     },
     {
       "id": "zero_point:Cube",
@@ -984,7 +1080,8 @@
       "variantCode": "Cube",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.000014
     },
     {
       "id": "zero_point:Quack",
@@ -992,7 +1089,8 @@
       "variantCode": "Quack",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0
     },
     {
       "id": "zero_point:Gem",
@@ -1000,8 +1098,9 @@
       "variantCode": "Gem",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000,
-      "releaseDate": "2026-08-06T13:00:00Z"
+      "recallDustCost": 10000,
+      "releaseDate": "2026-08-06T13:00:00Z",
+      "dropChancePercent": 0.00001
     },
     {
       "id": "burnt_peanut:Base",
@@ -1009,7 +1108,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 6750,
+      "dropChancePercent": 2.14
     },
     {
       "id": "grim:Base",
@@ -1017,7 +1117,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 6750,
+      "dropChancePercent": 0.15
     },
     {
       "id": "grim:Gold",
@@ -1025,7 +1126,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.01
     },
     {
       "id": "grim:Gummy",
@@ -1033,7 +1135,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.01
     },
     {
       "id": "grim:Galaxy",
@@ -1041,7 +1144,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.01
     },
     {
       "id": "grim:Cube",
@@ -1049,7 +1153,8 @@
       "variantCode": "Cube",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0
     },
     {
       "id": "grim:Holofoil",
@@ -1057,7 +1162,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0
     },
     {
       "id": "grim:Gem",
@@ -1065,8 +1171,9 @@
       "variantCode": "Gem",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000,
-      "releaseDate": "2026-08-06T13:00:00Z"
+      "recallDustCost": 10000,
+      "releaseDate": "2026-08-06T13:00:00Z",
+      "dropChancePercent": 0.00099
     },
     {
       "id": "batman:Base",
@@ -1074,7 +1181,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 6750,
+      "dropChancePercent": 1.44
     },
     {
       "id": "batman:Gold",
@@ -1082,7 +1190,8 @@
       "variantCode": "Gold",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.17
     },
     {
       "id": "batman:Gummy",
@@ -1090,7 +1199,8 @@
       "variantCode": "Gummy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.1
     },
     {
       "id": "batman:Galaxy",
@@ -1098,7 +1208,8 @@
       "variantCode": "Galaxy",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.07
     },
     {
       "id": "batman:Holofoil",
@@ -1106,7 +1217,8 @@
       "variantCode": "Holofoil",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.34
     },
     {
       "id": "batman:Cube",
@@ -1114,7 +1226,8 @@
       "variantCode": "Cube",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 4000
+      "recallDustCost": 10000,
+      "dropChancePercent": 0.02
     },
     {
       "id": "vini_jr:Base",
@@ -1122,7 +1235,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 6750,
+      "dropChancePercent": 2.14
     },
     {
       "id": "pollo:Base",
@@ -1130,7 +1244,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 6750,
+      "dropChancePercent": 2.14
     },
     {
       "id": "john_wick:Base",
@@ -1138,7 +1253,8 @@
       "variantCode": "Base",
       "seasonTag": "C7S3",
       "availability": "live",
-      "recallDustCost": 100
+      "recallDustCost": 6750,
+      "dropChancePercent": 0
     },
     {
       "id": "ironmouse:Base",
@@ -1147,7 +1263,8 @@
       "seasonTag": "C7S3",
       "availability": "live",
       "recallDustCost": 6750,
-      "releaseDate": "2026-08-04T13:00:00Z"
+      "releaseDate": "2026-08-04T13:00:00Z",
+      "dropChancePercent": 2.14
     }
   ]
 }
