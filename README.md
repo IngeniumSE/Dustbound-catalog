@@ -12,12 +12,15 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 ## Catalog contract
 
 - `schemaVersion` / `catalogVersion`
+- `seasons[]` with: `tag`, `startUtc`, optional `endUtc` (omit when end not confirmed)
 - `sprites[]`, `variants[]`, `collectibles[]`
 - Collectible id: `{spriteSlug}:{variantCode}`
 - `availability`: `live` | `vaulted`
 - `recallDustCost`: Sprite Dust to recall/summon that Collectible
 - `dropChancePercent` (optional): Sprite Chest drop chance as a percent number (e.g. `4.45` = 4.45%); omit when unknown
 - Never delete published Collectible ids
+- Season `endUtc` is inclusive through that UTC calendar day; overlapping start/end days (e.g. season transition) may yield multiple active seasons
+- App checklist defaults to Collectibles in active seasons unless the user picks season filters
 
 ## Events contract
 
