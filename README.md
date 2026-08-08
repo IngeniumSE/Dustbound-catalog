@@ -19,7 +19,7 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 - `recallDustCost`: Sprite Dust to recall/summon that Collectible
 - `dropChancePercent` (optional): Sprite Chest drop chance as a percent number (e.g. `4.45` = 4.45%); omit when unknown
 - Never delete published Collectible ids
-- Season `endUtc` is inclusive through that UTC calendar day; overlapping start/end days (e.g. season transition) may yield multiple active seasons
+- Season window is half-open: active when `startUtc <= now < endUtc` (omit `endUtc` when unknown). Adjacent seasons may share a boundary instant (e.g. C7S3 ends and C7S4 starts at the same UTC)
 - App checklist defaults to Collectibles in active seasons unless the user picks season filters
 
 ## Events contract
