@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 9,
+  "eventsVersion": 10,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -53,6 +53,12 @@
         "zero_point:Gem",
         "grim:Gem"
       ]
+    },
+    {
+      "id": "fortnite-unstable-2026-08-15",
+      "title": "Fortnite: Unstable",
+      "summary": "Story Moment. Mythic Sprites appear more often.",
+      "startUtc": "2026-08-15T18:00:00Z"
     },
     {
       "id": "fortnite-override-2026-08-20",
