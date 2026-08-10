@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 10,
+  "eventsVersion": 11,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -55,10 +55,32 @@
       ]
     },
     {
+      "id": "mythic-sprite-hours-2026-08-15",
+      "title": "Mythic Sprite Hours",
+      "summary": "Mythic Sprites appear more often, with an extra boost to Grim and Zero Point sprites. All locations on the Island offer higher-quality loot. Extracting a Sprite heals you fully and grants the Slap effect.",
+      "startUtc": "2026-08-15T18:00:00Z",
+      "endUtc": "2026-08-15T20:00:00Z",
+      "spriteIds": [
+        "zero_point",
+        "grim"
+      ]
+    },
+    {
       "id": "fortnite-unstable-2026-08-15",
       "title": "Fortnite: Unstable",
       "summary": "Story Moment. Mythic Sprites appear more often.",
       "startUtc": "2026-08-15T18:00:00Z"
+    },
+    {
+      "id": "mythic-sprite-hours-2026-08-16",
+      "title": "Mythic Sprite Hours",
+      "summary": "Mythic Sprites appear more often, with an extra boost to Grim and Zero Point sprites. All locations on the Island offer higher-quality loot. Extracting a Sprite heals you fully and grants the Slap effect.",
+      "startUtc": "2026-08-16T01:00:00Z",
+      "endUtc": "2026-08-16T03:00:00Z",
+      "spriteIds": [
+        "zero_point",
+        "grim"
+      ]
     },
     {
       "id": "fortnite-override-2026-08-20",
