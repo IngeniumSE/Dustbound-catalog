@@ -11,8 +11,9 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 
 ## Catalog contract
 
-- `schemaVersion` / `catalogVersion`
-- `seasons[]` with: `tag`, `startUtc`, optional `endUtc` (omit when end not confirmed)
+- `schemaVersion` / `catalogVersion` (current: schema **3**, bump `catalogVersion` on each publish)
+- `seasons[]` with: `tag`, `startUtc`, optional `endUtc` (omit when end not confirmed), optional `spriteOrder` (Sprite id list for In-game checklist sort; schema 3+)
+- `achievements{}` (schema 2+): catalog-driven Achievement availability (`completeSprites`, `completeVariants`, `completeSeasons`, `allCollectedAvailable`, `allTimeAvailable`, `disableAchievement`)
 - `sprites[]`, `variants[]`, `collectibles[]`
 - Collectible id: `{spriteSlug}:{variantCode}`
 - `availability`: `live` | `vaulted`
@@ -21,6 +22,7 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 - Never delete published Collectible ids
 - Season window is half-open: active when `startUtc <= now < endUtc` (omit `endUtc` when unknown). Adjacent seasons may share a boundary instant (e.g. C7S3 ends and C7S4 starts at the same UTC)
 - App checklist defaults to Collectibles in active seasons unless the user picks season filters
+- In-game checklist sort uses each Season’s `spriteOrder`; All Seasons sorts by Season tag descending, then that order
 
 ## Events contract
 

@@ -1,24 +1,41 @@
 {
-  "schemaVersion": 1,
-  "catalogVersion": 8,
+  "schemaVersion": 3,
+  "catalogVersion": 10,
   "meta": {
     "season": "C7S3",
     "asOf": "2026-08-08",
     "researched": "2026-08-08",
     "source": "fortnite.gg/sprites scrape 2026-08-07 (dropChancePercent + recallDustCost)",
-    "notes": "recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem vaulted (not listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed)."
+    "notes": "recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem vaulted (not listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed). schemaVersion 2 adds achievements{} — Achievement availability is catalog-driven; a completeness list gates both the collected and mastered axes of its scope, disableAchievement wins over all, globals (allCollected/allTime) stay off until their rosters are final. schemaVersion 3 adds seasons[].spriteOrder for In-game checklist sort."
   },
   "seasons": [
     {
       "tag": "C7S3",
       "startUtc": "2026-06-06T08:00:00Z",
-      "endUtc": "2026-08-20T08:00:00Z"
+      "endUtc": "2026-08-20T08:00:00Z",
+      "spriteOrder": [
+        "john_wick", "batman", "water", "earth", "fire", "duck", "ghost", "dream", "demon", "punk",
+        "king", "vini_jr", "burnt_peanut", "zero_point", "fishy", "striker", "boss", "grim", "air",
+        "seven", "ironmouse", "pollo", "llama", "peely"
+      ]
     },
     {
       "tag": "C7S4",
       "startUtc": "2026-08-20T08:00:00Z"
     }
   ],
+  "achievements": {
+    "completeSprites": [
+      "water", "earth", "fire", "fishy", "air", "duck", "ghost", "demon", "king",
+      "aura", "striker", "dream", "punk", "boss", "seven", "llama", "peely",
+      "zero_point", "burnt_peanut", "grim", "batman", "vini_jr", "pollo", "john_wick", "ironmouse"
+    ],
+    "completeVariants": ["Gold", "Gummy", "Galaxy", "Holofoil", "Gem", "Quack", "Cube"],
+    "completeSeasons": ["C7S3"],
+    "allCollectedAvailable": false,
+    "allTimeAvailable": false,
+    "disableAchievement": []
+  },
   "sprites": [
     {
       "id": "water",
