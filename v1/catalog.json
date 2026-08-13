@@ -1,12 +1,12 @@
 {
   "schemaVersion": 3,
-  "catalogVersion": 10,
+  "catalogVersion": 11,
   "meta": {
     "season": "C7S3",
-    "asOf": "2026-08-08",
-    "researched": "2026-08-08",
+    "asOf": "2026-08-13",
+    "researched": "2026-08-13",
     "source": "fortnite.gg/sprites scrape 2026-08-07 (dropChancePercent + recallDustCost)",
-    "notes": "recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem vaulted (not listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed). schemaVersion 2 adds achievements{} — Achievement availability is catalog-driven; a completeness list gates both the collected and mastered axes of its scope, disableAchievement wins over all, globals (allCollected/allTime) stay off until their rosters are final. schemaVersion 3 adds seasons[].spriteOrder for In-game checklist sort."
+    "notes": "recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem removed (never listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed). schemaVersion 2 adds achievements{} — Achievement availability is catalog-driven; a completeness list gates both the collected and mastered axes of its scope, disableAchievement wins over all, globals (allCollected/allTime) stay off until their rosters are final. schemaVersion 3 adds seasons[].spriteOrder for In-game checklist sort."
   },
   "seasons": [
     {
@@ -866,15 +866,6 @@
       "availability": "live",
       "recallDustCost": 6750,
       "dropChancePercent": 0.04
-    },
-    {
-      "id": "punk:Gem",
-      "spriteId": "punk",
-      "variantCode": "Gem",
-      "seasonTag": "C7S3",
-      "availability": "vaulted",
-      "recallDustCost": 4000,
-      "releaseDate": "2026-08-06T13:00:00Z"
     },
     {
       "id": "boss:Base",

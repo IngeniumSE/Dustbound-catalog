@@ -58,7 +58,7 @@ const matrix = {
   aura: ["Base", "Gold", "Gummy", "Galaxy", "Gem"],
   striker: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil"],
   dream: ["Base", "Gold", "Gummy", "Galaxy", "Cube"],
-  punk: ["Base", "Gold", "Gummy", "Galaxy", "Cube", "Gem"],
+  punk: ["Base", "Gold", "Gummy", "Galaxy", "Cube"],
   boss: ["Base", "Gold", "Gummy", "Galaxy", "Cube"],
   seven: ["Base", "Gold", "Gummy", "Galaxy", "Holofoil"],
   llama: ["Base", "Gold", "Gummy", "Galaxy", "Gem"],
@@ -81,7 +81,6 @@ const releaseDates = {
   "demon:Gem": "2026-08-06T13:00:00Z",
   "aura:Gem": "2026-08-06T13:00:00Z",
   "llama:Gem": "2026-08-06T13:00:00Z",
-  "punk:Gem": "2026-08-06T13:00:00Z",
   "zero_point:Gem": "2026-08-06T13:00:00Z",
   "grim:Gem": "2026-08-06T13:00:00Z",
   "ironmouse:Base": "2026-08-04T13:00:00Z",
@@ -115,7 +114,7 @@ for (const [spriteId, codes] of Object.entries(matrix)) {
 }
 
 if (sprites.length !== 25) throw new Error(`expected 25 sprites, got ${sprites.length}`);
-if (collectibles.length !== 118) throw new Error(`expected 118 collectibles, got ${collectibles.length}`);
+if (collectibles.length !== 117) throw new Error(`expected 117 collectibles, got ${collectibles.length}`);
 
 const doc = {
   schemaVersion,
