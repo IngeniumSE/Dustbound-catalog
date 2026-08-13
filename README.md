@@ -53,4 +53,4 @@ Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 S
 
 ## Events feed
 
-`eventsVersion` 11 curated windows (Mastery Monday, New Sprites, Gem Hours, Mythic Sprite Hours, Fortnite: Unstable, Fortnite: Override). Always bump `eventsVersion` on publish.
+`eventsVersion` 12 curated windows (Mastery Monday, New Sprites, Gem Hours, Mythic Sprite Hours, Fortnite: Unstable, Galaxy / Holo / Cube / Gem Hours, Fortnite: Override). Always bump `eventsVersion` on publish.

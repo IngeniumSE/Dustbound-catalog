@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 11,
+  "eventsVersion": 12,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -80,6 +80,90 @@
       "spriteIds": [
         "zero_point",
         "grim"
+      ]
+    },
+    {
+      "id": "galaxy-hours-2026-08-16",
+      "title": "Galaxy Hours",
+      "summary": "Sprites gain XP twice as fast. Sprite dust not required. Lucky Locators. Fireplaces grant sprite XP gains.",
+      "startUtc": "2026-08-16T13:00:00Z",
+      "endUtc": "2026-08-17T13:00:00Z",
+      "collectibleIds": [
+        "water:Galaxy",
+        "earth:Galaxy",
+        "fire:Galaxy",
+        "fishy:Galaxy",
+        "air:Galaxy",
+        "duck:Galaxy",
+        "ghost:Galaxy",
+        "demon:Galaxy",
+        "king:Galaxy",
+        "aura:Galaxy",
+        "striker:Galaxy",
+        "dream:Galaxy",
+        "punk:Galaxy",
+        "boss:Galaxy",
+        "seven:Galaxy",
+        "llama:Galaxy",
+        "peely:Galaxy",
+        "zero_point:Galaxy",
+        "grim:Galaxy",
+        "batman:Galaxy"
+      ]
+    },
+    {
+      "id": "holo-hours-2026-08-17",
+      "title": "Holo Hours",
+      "summary": "Sprites gain XP twice as fast. Sprite dust not required. Lucky Locators. Fireplaces grant sprite XP gains.",
+      "startUtc": "2026-08-17T13:00:00Z",
+      "endUtc": "2026-08-18T13:00:00Z",
+      "collectibleIds": [
+        "water:Holofoil",
+        "fire:Holofoil",
+        "air:Holofoil",
+        "ghost:Holofoil",
+        "king:Holofoil",
+        "striker:Holofoil",
+        "seven:Holofoil",
+        "peely:Holofoil",
+        "zero_point:Holofoil",
+        "grim:Holofoil",
+        "batman:Holofoil"
+      ]
+    },
+    {
+      "id": "cube-hours-2026-08-18",
+      "title": "Cube Hours",
+      "summary": "Sprites gain XP twice as fast. Sprite dust not required. Lucky Locators. Fireplaces grant sprite XP gains.",
+      "startUtc": "2026-08-18T13:00:00Z",
+      "endUtc": "2026-08-19T13:00:00Z",
+      "collectibleIds": [
+        "earth:Cube",
+        "fire:Cube",
+        "fishy:Cube",
+        "dream:Cube",
+        "punk:Cube",
+        "boss:Cube",
+        "zero_point:Cube",
+        "grim:Cube",
+        "batman:Cube"
+      ]
+    },
+    {
+      "id": "gem-hours-2026-08-19",
+      "title": "Gem Hours",
+      "summary": "Sprites gain XP twice as fast. Sprite dust not required. Lucky Locators. Fireplaces grant sprite XP gains.",
+      "startUtc": "2026-08-19T13:00:00Z",
+      "endUtc": "2026-08-20T13:00:00Z",
+      "collectibleIds": [
+        "water:Gem",
+        "earth:Gem",
+        "duck:Gem",
+        "demon:Gem",
+        "aura:Gem",
+        "llama:Gem",
+        "zero_point:Gem",
+        "grim:Gem"
       ]
     },
     {
