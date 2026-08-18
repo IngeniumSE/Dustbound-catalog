@@ -1,6 +1,6 @@
 # Dustbound-catalog
 
-Static Catalog + Events feeds for Dustbound.
+Static Catalog, Events, and Feature flags feeds for Dustbound.
 
 ### Catalog
 

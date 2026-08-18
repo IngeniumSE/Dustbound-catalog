@@ -1,12 +1,13 @@
 # Dustbound-catalog
 
-Static Catalog + Events feeds for [Dustbound](https://github.com/IngeniumSE) (Fortnite Sprites checklist app).
+Static Catalog, Events, and Feature flags feeds for [Dustbound](https://github.com/IngeniumSE) (Fortnite Sprites checklist app).
 
 ## Feed URLs
 
 ```text
 https://ingeniumse.github.io/Dustbound-catalog/v1/catalog.json
 https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
+https://ingeniumse.github.io/Dustbound-catalog/v1/features.json
 ```
 
 ## Catalog contract
@@ -33,6 +34,14 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 - Curate by hand; set `sourceUrl` for attribution; **do not scrape X**
 - Bump `eventsVersion` on each publish
 
+## Features contract
+
+- `schemaVersion` / `featuresVersion`
+- `features` object of boolean flags keyed by id
+- Known ids: `pairing` (Pairing Inbox / Outbox / Leaderboards). Missing keys are treated as **enabled** (fail-open)
+- Set `pairing` to `false` to pause Pairing during maintenance without an app store release
+- Bump `featuresVersion` on each publish
+
 ## Publish workflow
 
 ### Catalog
@@ -47,6 +56,12 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 3. Merge to `main`.
 4. GitHub Pages serves the file.
 
+### Features
+1. Edit `v1/features.json` (toggle flags).
+2. Bump `featuresVersion`.
+3. Merge to `main`.
+4. GitHub Pages serves the file.
+
 ## First catalog feed
 
 Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 Sprites / 109 Collectibles, `C7S3`, as-of 2026-07-31). All rows `availability: live`. `recallDustCost` values are approximate.
@@ -54,3 +69,7 @@ Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 S
 ## Events feed
 
 `eventsVersion` 12 curated windows (Mastery Monday, New Sprites, Gem Hours, Mythic Sprite Hours, Fortnite: Unstable, Galaxy / Holo / Cube / Gem Hours, Fortnite: Override). Always bump `eventsVersion` on publish.
+
+## Features feed
+
+`featuresVersion` 1 with `pairing: true`. Set `pairing` to `false` and bump `featuresVersion` to pause Pairing. Always bump `featuresVersion` on publish.
