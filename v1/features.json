@@ -2,6 +2,6 @@
   "schemaVersion": 1,
   "featuresVersion": 2,
   "features": {
-    "pairing": true
+    "pairing": false
   }
 }
