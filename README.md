@@ -72,4 +72,4 @@ Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 S
 
 ## Features feed
 
-`featuresVersion` 1 with `pairing: true`. Set `pairing` to `false` and bump `featuresVersion` to pause Pairing. Always bump `featuresVersion` on publish.
+`featuresVersion` 2 with `pairing: false` (paused for maintenance). Set `pairing` to `true` and bump `featuresVersion` to resume. Always bump `featuresVersion` on publish.
