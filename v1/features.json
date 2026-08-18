@@ -1,7 +1,9 @@
 {
   "schemaVersion": 1,
-  "featuresVersion": 2,
+  "featuresVersion": 3,
   "features": {
-    "pairing": true
+    "pairing": true,
+    "outboxHelpLimit": 3,
+    "inboxHelpLimit": 3
   }
 }

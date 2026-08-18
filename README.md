@@ -37,9 +37,10 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/features.json
 ## Features contract
 
 - `schemaVersion` / `featuresVersion`
-- `features` object of boolean flags keyed by id
-- Known ids: `pairing` (Pairing Inbox / Outbox / Leaderboards). Missing keys are treated as **enabled** (fail-open)
+- `features` object keyed by id: booleans (`pairing`) and integers (`outboxHelpLimit`, `inboxHelpLimit`)
+- Known ids: `pairing` (Pairing Inbox / Outbox / Leaderboards). Missing boolean keys are treated as **enabled** (fail-open)
 - Set `pairing` to `false` to pause Pairing during maintenance without an app store release
+- `outboxHelpLimit` / `inboxHelpLimit` (default **3** when omitted) cap how many Help requests a user can seek and how many they can help with. Caps are independent. Negatives are treated as 0
 - Bump `featuresVersion` on each publish
 
 ## Publish workflow
@@ -72,4 +73,4 @@ Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 S
 
 ## Features feed
 
-`featuresVersion` 2 with `pairing: false` (paused for maintenance). Set `pairing` to `true` and bump `featuresVersion` to resume. Always bump `featuresVersion` on publish.
+`featuresVersion` 3 with `pairing: true`, `outboxHelpLimit: 3`, `inboxHelpLimit: 3`. Always bump `featuresVersion` on publish.
