@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 1,
+  "lobbyHacksVersion": 2,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -18,6 +18,7 @@
     { "id": "lets-block-and-roll", "code": "LetsBlockAndRoll", "reward": "Tetrimino lobby occupants", "seasonTag": "C7S4" },
     { "id": "dont-block-me", "code": "DontBlockMe", "reward": "Tetrimino lobby occupants", "seasonTag": "C7S4" },
     { "id": "survive-the-night", "code": "SurviveTheNight", "reward": "2× Cheat Code Locators", "seasonTag": "C7S4" },
+    { "id": "find-it-chat", "code": "FindItChat", "reward": "2× Cheat Code Locators", "seasonTag": "C7S4" },
     { "id": "8bit-blast", "code": "8BitBlast", "reward": "Cheat Master 8-Bit Sprite", "seasonTag": "C7S4", "collectibleId": "8bit:CheatMaster" }
   ]
 }
