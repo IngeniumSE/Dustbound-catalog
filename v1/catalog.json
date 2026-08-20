@@ -1,12 +1,12 @@
 {
   "schemaVersion": 3,
-  "catalogVersion": 11,
+  "catalogVersion": 14,
   "meta": {
-    "season": "C7S3",
-    "asOf": "2026-08-13",
-    "researched": "2026-08-13",
-    "source": "fortnite.gg/sprites scrape 2026-08-07 (dropChancePercent + recallDustCost)",
-    "notes": "recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem removed (never listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed). schemaVersion 2 adds achievements{} — Achievement availability is catalog-driven; a completeness list gates both the collected and mastered axes of its scope, disableAchievement wins over all, globals (allCollected/allTime) stay off until their rosters are final. schemaVersion 3 adds seasons[].spriteOrder for In-game checklist sort."
+    "season": "C7S4",
+    "asOf": "2026-08-20",
+    "researched": "2026-08-20",
+    "source": "C7S3 fortnite.gg scrape 2026-08-07; C7S4 launch roster maintainer-curated 2026-08-20 (recallDustCost 0 pending fortnite.gg)",
+    "notes": "C7S4 launch roster: 12 Sprites with Base/Gold/CheatMaster; recallDustCost 0 and dropChancePercent omitted until fortnite.gg. C7S4 omitted from completeSprites/completeSeasons until the variant roster is final. C7S3 recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem removed (never listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed). schemaVersion 2 adds achievements{} — Achievement availability is catalog-driven; a completeness list gates both the collected and mastered axes of its scope, disableAchievement wins over all, globals (allCollected/allTime) stay off until their rosters are final. schemaVersion 3 adds seasons[].spriteOrder for In-game checklist sort."
   },
   "seasons": [
     {
@@ -21,7 +21,11 @@
     },
     {
       "tag": "C7S4",
-      "startUtc": "2026-08-20T08:00:00Z"
+      "startUtc": "2026-08-20T08:00:00Z",
+      "spriteOrder": [
+        "klombo", "sonic", "tails", "shadow", "jackrabbit", "8bit",
+        "crown", "adventure", "bush", "jonesy", "killswitch", "storm_scout"
+      ]
     }
   ],
   "achievements": {
@@ -186,6 +190,78 @@
       "name": "Ironmouse Sprite",
       "rarity": "Mythic",
       "abilitySummary": "While regenerating, gain Cloak and low gravity"
+    },
+    {
+      "id": "klombo",
+      "name": "Klombo Sprite",
+      "rarity": "Mythic",
+      "abilitySummary": "A loyal friend returns, but is very rare to find. Grants random items at each level. You can only level it up by using consumable items that give Health or Shield"
+    },
+    {
+      "id": "sonic",
+      "name": "Sonic Sprite",
+      "rarity": "Epic",
+      "abilitySummary": "Gotta Go Fast! Sprint faster"
+    },
+    {
+      "id": "tails",
+      "name": "Tails Sprite",
+      "rarity": "Epic",
+      "abilitySummary": "Hover with the Help of Tails!"
+    },
+    {
+      "id": "shadow",
+      "name": "Shadow Sprite",
+      "rarity": "Epic",
+      "abilitySummary": "Automatically reload weapons over time even when unequipped"
+    },
+    {
+      "id": "jackrabbit",
+      "name": "Jackrabbit Sprite",
+      "rarity": "Legendary",
+      "abilitySummary": "Perform another jump while mid-air"
+    },
+    {
+      "id": "8bit",
+      "name": "8-Bit Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Find an 8-Bit Shotgun in your first Chest and gain a score multiplier for it"
+    },
+    {
+      "id": "crown",
+      "name": "Crown Sprite",
+      "rarity": "Mythic",
+      "abilitySummary": "Gain extra Crown Wins after getting a Victory Royale. You can only level it up by winning matches"
+    },
+    {
+      "id": "adventure",
+      "name": "Adventure Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Upgrade a random item in your inventory at each Level"
+    },
+    {
+      "id": "bush",
+      "name": "Bush Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Spawns a Bush on you after a duration. At max Level, gain a Bush on elimination"
+    },
+    {
+      "id": "jonesy",
+      "name": "Jonesy Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "After a short duration, recover Health or Shield after being damaged"
+    },
+    {
+      "id": "killswitch",
+      "name": "Killswitch Sprite",
+      "rarity": "Epic",
+      "abilitySummary": "Enter Hangtime with improved accuracy"
+    },
+    {
+      "id": "storm_scout",
+      "name": "Storm Scout Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Applies Overdrive after taking a certain amount of storm damage. Reveals future Storm Circles at max level. Reduces damage to trigger Overdrive with each Level Up!"
     }
   ],
   "variants": [
@@ -220,6 +296,10 @@
     {
       "code": "Cube",
       "bonusSummary": "Overdrive while in the Storm"
+    },
+    {
+      "code": "CheatMaster",
+      "bonusSummary": ""
     }
   ],
   "collectibles": [
@@ -1284,6 +1364,294 @@
       "recallDustCost": 6750,
       "releaseDate": "2026-08-04T13:00:00Z",
       "dropChancePercent": 2.14
+    },
+    {
+      "id": "klombo:Base",
+      "spriteId": "klombo",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "klombo:Gold",
+      "spriteId": "klombo",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "sonic:Base",
+      "spriteId": "sonic",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "sonic:Gold",
+      "spriteId": "sonic",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "tails:Base",
+      "spriteId": "tails",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "tails:Gold",
+      "spriteId": "tails",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "shadow:Base",
+      "spriteId": "shadow",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "shadow:Gold",
+      "spriteId": "shadow",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "jackrabbit:Base",
+      "spriteId": "jackrabbit",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "jackrabbit:Gold",
+      "spriteId": "jackrabbit",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "8bit:Base",
+      "spriteId": "8bit",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "8bit:Gold",
+      "spriteId": "8bit",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "crown:Base",
+      "spriteId": "crown",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "crown:Gold",
+      "spriteId": "crown",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "adventure:Base",
+      "spriteId": "adventure",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "adventure:Gold",
+      "spriteId": "adventure",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "bush:Base",
+      "spriteId": "bush",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "bush:Gold",
+      "spriteId": "bush",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "jonesy:Base",
+      "spriteId": "jonesy",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "jonesy:Gold",
+      "spriteId": "jonesy",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "killswitch:Base",
+      "spriteId": "killswitch",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "killswitch:Gold",
+      "spriteId": "killswitch",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "klombo:CheatMaster",
+      "spriteId": "klombo",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "sonic:CheatMaster",
+      "spriteId": "sonic",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "tails:CheatMaster",
+      "spriteId": "tails",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "shadow:CheatMaster",
+      "spriteId": "shadow",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "jackrabbit:CheatMaster",
+      "spriteId": "jackrabbit",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "8bit:CheatMaster",
+      "spriteId": "8bit",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "crown:CheatMaster",
+      "spriteId": "crown",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "adventure:CheatMaster",
+      "spriteId": "adventure",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "bush:CheatMaster",
+      "spriteId": "bush",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "jonesy:CheatMaster",
+      "spriteId": "jonesy",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "killswitch:CheatMaster",
+      "spriteId": "killswitch",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "storm_scout:Base",
+      "spriteId": "storm_scout",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "storm_scout:Gold",
+      "spriteId": "storm_scout",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
+      "id": "storm_scout:CheatMaster",
+      "spriteId": "storm_scout",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
     }
   ]
 }
