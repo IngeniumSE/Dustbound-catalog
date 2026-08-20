@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 12,
+  "eventsVersion": 13,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -171,6 +171,48 @@
       "title": "Fortnite: Override",
       "summary": "Break the Rules. Change the Game",
       "startUtc": "2026-08-20T13:00:00Z"
+    },
+    {
+      "id": "golden-hours-2026-08-22",
+      "title": "Golden Hours",
+      "summary": "Gold variants appear more often.",
+      "startUtc": "2026-08-22T18:00:00Z",
+      "endUtc": "2026-08-22T20:00:00Z",
+      "collectibleIds": [
+        "klombo:Gold",
+        "sonic:Gold",
+        "tails:Gold",
+        "shadow:Gold",
+        "jackrabbit:Gold",
+        "8bit:Gold",
+        "crown:Gold",
+        "adventure:Gold",
+        "bush:Gold",
+        "jonesy:Gold",
+        "killswitch:Gold",
+        "storm_scout:Gold"
+      ]
+    },
+    {
+      "id": "golden-hours-2026-08-23",
+      "title": "Golden Hours",
+      "summary": "Gold variants appear more often.",
+      "startUtc": "2026-08-23T01:00:00Z",
+      "endUtc": "2026-08-23T03:00:00Z",
+      "collectibleIds": [
+        "klombo:Gold",
+        "sonic:Gold",
+        "tails:Gold",
+        "shadow:Gold",
+        "jackrabbit:Gold",
+        "8bit:Gold",
+        "crown:Gold",
+        "adventure:Gold",
+        "bush:Gold",
+        "jonesy:Gold",
+        "killswitch:Gold",
+        "storm_scout:Gold"
+      ]
     }
   ]
 }
