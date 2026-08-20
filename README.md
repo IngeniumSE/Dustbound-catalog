@@ -1,6 +1,6 @@
 # Dustbound-catalog
 
-Static Catalog, Events, and Feature flags feeds for [Dustbound](https://github.com/IngeniumSE) (Fortnite Sprites checklist app).
+Static Catalog, Events, Feature flags, and Lobby Hacks feeds for [Dustbound](https://github.com/IngeniumSE) (Fortnite Sprites checklist app).
 
 ## Feed URLs
 
@@ -8,6 +8,7 @@ Static Catalog, Events, and Feature flags feeds for [Dustbound](https://github.c
 https://ingeniumse.github.io/Dustbound-catalog/v1/catalog.json
 https://ingeniumse.github.io/Dustbound-catalog/v1/events.json
 https://ingeniumse.github.io/Dustbound-catalog/v1/features.json
+https://ingeniumse.github.io/Dustbound-catalog/v1/lobby-hacks.json
 ```
 
 ## Catalog contract
@@ -37,11 +38,20 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/features.json
 ## Features contract
 
 - `schemaVersion` / `featuresVersion`
-- `features` object keyed by id: booleans (`pairing`) and integers (`outboxHelpLimit`, `inboxHelpLimit`)
-- Known ids: `pairing` (Pairing Inbox / Outbox / Leaderboards). Missing boolean keys are treated as **enabled** (fail-open)
+- `features` object keyed by id: booleans (`pairing`, `seasonHub`) and integers (`outboxHelpLimit`, `inboxHelpLimit`)
+- Known ids: `pairing` (Pairing Inbox / Outbox / Leaderboards), `seasonHub` (Season hub host chip). Missing boolean keys are treated as **enabled** (fail-open)
 - Set `pairing` to `false` to pause Pairing during maintenance without an app store release
+- Set `seasonHub` to `false` to hide the Season hub chip (no paused card)
 - `outboxHelpLimit` / `inboxHelpLimit` (default **3** when omitted) cap how many Help requests a user can seek and how many they can help with. Caps are independent. Negatives are treated as 0
 - Bump `featuresVersion` on each publish
+
+## Lobby Hacks contract
+
+- `schemaVersion` / `lobbyHacksVersion` (schema **1**)
+- `hacks[]` with required `id`, `code`, `reward`, `seasonTag`; optional `collectibleId` (`{spriteSlug}:{variantCode}`)
+- Remote same-or-newer `lobbyHacksVersion` replaces (republish can drop a row). App seed only replaces cache when strictly newer
+- Hub lists rows whose `seasonTag` matches the live Season pack. Used marks live on device, not in this file
+- Bump `lobbyHacksVersion` on each publish
 
 ## Publish workflow
 
@@ -63,6 +73,12 @@ https://ingeniumse.github.io/Dustbound-catalog/v1/features.json
 3. Merge to `main`.
 4. GitHub Pages serves the file.
 
+### Lobby Hacks
+1. Edit `v1/lobby-hacks.json` (add/update rows; keep `id` stable).
+2. Bump `lobbyHacksVersion`.
+3. Merge to `main`.
+4. GitHub Pages serves the file.
+
 ## First catalog feed
 
 Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 Sprites / 109 Collectibles, `C7S3`, as-of 2026-07-31). All rows `availability: live`. `recallDustCost` values are approximate.
@@ -73,4 +89,8 @@ Generated 2026-08-03 from Dustbound research seed **02-seed-catalog-c7s3** (24 S
 
 ## Features feed
 
-`featuresVersion` 3 with `pairing: true`, `outboxHelpLimit: 3`, `inboxHelpLimit: 3`. Always bump `featuresVersion` on publish.
+`featuresVersion` 4 with `pairing: true`, `seasonHub: true`, `outboxHelpLimit: 3`, `inboxHelpLimit: 3`. Always bump `featuresVersion` on publish.
+
+## Lobby Hacks feed
+
+`lobbyHacksVersion` 1 — C7S4 launch codes. Always bump `lobbyHacksVersion` on publish.

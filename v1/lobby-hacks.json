@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "lobbyHacksVersion": 1,
+  "hacks": [
+    { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
+    { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
+    { "id": "abgestaubt", "code": "Abgestaubt", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
+    { "id": "chispambo", "code": "Chispambo", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
+    { "id": "magilume", "code": "Magilume", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
+    { "id": "override-xp", "code": "OverrideXP", "reward": "40,000 Season XP", "seasonTag": "C7S4" },
+    { "id": "i-wanna-fly-high", "code": "IWannaFlyHigh", "reward": "Cheat Master Tails Sprite", "seasonTag": "C7S4", "collectibleId": "tails:CheatMaster" },
+    { "id": "take-your-heart", "code": "TakeYourHeart", "reward": "2× Extraction Accelerators", "seasonTag": "C7S4" },
+    { "id": "be-more-alien", "code": "BEMOREALIEN", "reward": "Override Ready Loading Screen", "seasonTag": "C7S4" },
+    { "id": "perfect-order", "code": "PerfectOrder", "reward": "4× Spicy Tacos", "seasonTag": "C7S4" },
+    { "id": "gotta-go-fast", "code": "GottaGoFast", "reward": "Cheat Master Sonic Sprite", "seasonTag": "C7S4", "collectibleId": "sonic:CheatMaster" },
+    { "id": "born-2-play", "code": "Born2Play", "reward": "Cheat Master Adventure Sprite", "seasonTag": "C7S4", "collectibleId": "adventure:CheatMaster" },
+    { "id": "o2-override", "code": "O2Override", "reward": "Llama Supply Drop + Portal Extractor", "seasonTag": "C7S4" },
+    { "id": "lets-block-and-roll", "code": "LetsBlockAndRoll", "reward": "Tetrimino lobby occupants", "seasonTag": "C7S4" },
+    { "id": "dont-block-me", "code": "DontBlockMe", "reward": "Tetrimino lobby occupants", "seasonTag": "C7S4" },
+    { "id": "survive-the-night", "code": "SurviveTheNight", "reward": "2× Cheat Code Locators", "seasonTag": "C7S4" },
+    { "id": "8bit-blast", "code": "8BitBlast", "reward": "Cheat Master 8-Bit Sprite", "seasonTag": "C7S4", "collectibleId": "8bit:CheatMaster" }
+  ]
+}

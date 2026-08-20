@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
-  "featuresVersion": 3,
+  "featuresVersion": 4,
   "features": {
     "pairing": true,
+    "seasonHub": true,
     "outboxHelpLimit": 3,
     "inboxHelpLimit": 3
   }
