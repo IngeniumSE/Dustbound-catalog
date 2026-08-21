@@ -1,6 +1,7 @@
 {
   "schemaVersion": 3,
-  "catalogVersion": 14,
+  "catalogVersion": 15,
+  "imageVersion": 1,
   "meta": {
     "season": "C7S4",
     "asOf": "2026-08-20",
