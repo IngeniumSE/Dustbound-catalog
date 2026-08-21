@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 13,
+  "eventsVersion": 14,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -179,18 +179,11 @@
       "startUtc": "2026-08-22T18:00:00Z",
       "endUtc": "2026-08-22T20:00:00Z",
       "collectibleIds": [
-        "klombo:Gold",
-        "sonic:Gold",
-        "tails:Gold",
-        "shadow:Gold",
         "jackrabbit:Gold",
-        "8bit:Gold",
-        "crown:Gold",
         "adventure:Gold",
-        "bush:Gold",
-        "jonesy:Gold",
         "killswitch:Gold",
-        "storm_scout:Gold"
+        "jonesy:Gold",
+        "bush:Gold"
       ]
     },
     {
@@ -200,18 +193,11 @@
       "startUtc": "2026-08-23T01:00:00Z",
       "endUtc": "2026-08-23T03:00:00Z",
       "collectibleIds": [
-        "klombo:Gold",
-        "sonic:Gold",
-        "tails:Gold",
-        "shadow:Gold",
         "jackrabbit:Gold",
-        "8bit:Gold",
-        "crown:Gold",
         "adventure:Gold",
-        "bush:Gold",
-        "jonesy:Gold",
         "killswitch:Gold",
-        "storm_scout:Gold"
+        "jonesy:Gold",
+        "bush:Gold"
       ]
     }
   ]
