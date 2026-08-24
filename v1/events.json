@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 14,
+  "eventsVersion": 15,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -198,6 +198,45 @@
         "killswitch:Gold",
         "jonesy:Gold",
         "bush:Gold"
+      ]
+    },
+    {
+      "id": "cheat-code-day-2026-08-24",
+      "title": "Cheat Code Day",
+      "startUtc": "2026-08-24T13:00:00Z",
+      "collectibleIds": [
+        "jonesy:Gold"
+      ]
+    },
+    {
+      "id": "new-sprites-2026-08-27",
+      "title": "New Sprites Day",
+      "startUtc": "2026-08-27T13:00:00Z",
+      "collectibleIds": [
+        "klombo:CheatMaster",
+        "shadow:CheatMaster",
+        "killswitch:CheatMaster",
+        "jackrabbit:CheatMaster"
+      ]
+    },
+    {
+      "id": "power-hour-2026-08-29",
+      "title": "Power Hour",
+      "summary": "Every player gets Sonic's running shoes",
+      "startUtc": "2026-08-29T18:00:00Z",
+      "endUtc": "2026-08-29T20:00:00Z",
+      "collectibleIds": [
+        "sonic:Base"
+      ]
+    },
+    {
+      "id": "power-hour-2026-08-30",
+      "title": "Power Hour",
+      "summary": "Every player gets Sonic's running shoes",
+      "startUtc": "2026-08-30T01:00:00Z",
+      "endUtc": "2026-08-30T03:00:00Z",
+      "collectibleIds": [
+        "sonic:Base"
       ]
     }
   ]
