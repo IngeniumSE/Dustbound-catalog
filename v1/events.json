@@ -228,7 +228,12 @@
       "spriteIds": [
         "sonic",
         "tails",
-        "shadow"
+        "shadow",
+        "storm_scout"
+      ],
+      "collectibleIds": [
+        "storm_scout:Gold",
+        "storm_scout:CheatMaster"
       ]
     },
     {
@@ -240,7 +245,12 @@
       "spriteIds": [
         "sonic",
         "tails",
-        "shadow"
+        "shadow",
+        "storm_scout"
+      ],
+      "collectibleIds": [
+        "storm_scout:Gold",
+        "storm_scout:CheatMaster"
       ]
     }
   ]
