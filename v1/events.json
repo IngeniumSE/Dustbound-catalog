@@ -228,7 +228,8 @@
       "spriteIds": [
         "sonic",
         "tails",
-        "shadow"
+        "shadow",
+        "storm_scout"
       ]
     },
     {
@@ -240,7 +241,8 @@
       "spriteIds": [
         "sonic",
         "tails",
-        "shadow"
+        "shadow",
+        "storm_scout"
       ]
     }
   ]
