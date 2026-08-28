@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 15,
+  "eventsVersion": 16,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -222,21 +222,25 @@
     {
       "id": "power-hour-2026-08-29",
       "title": "Power Hour",
-      "summary": "Every player gets Sonic's running shoes",
+      "summary": "Sonic Sprites are everywhere! Find more mythic Sonic Power Sneakers in Chests! Everyone starts with a 1Up!",
       "startUtc": "2026-08-29T18:00:00Z",
       "endUtc": "2026-08-29T20:00:00Z",
-      "collectibleIds": [
-        "sonic:Base"
+      "spriteIds": [
+        "sonic",
+        "tails",
+        "shadow"
       ]
     },
     {
       "id": "power-hour-2026-08-30",
       "title": "Power Hour",
-      "summary": "Every player gets Sonic's running shoes",
+      "summary": "Sonic Sprites are everywhere! Find more mythic Sonic Power Sneakers in Chests! Everyone starts with a 1Up!",
       "startUtc": "2026-08-30T01:00:00Z",
       "endUtc": "2026-08-30T03:00:00Z",
-      "collectibleIds": [
-        "sonic:Base"
+      "spriteIds": [
+        "sonic",
+        "tails",
+        "shadow"
       ]
     }
   ]
