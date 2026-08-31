@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 16,
+  "eventsVersion": 17,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -248,6 +248,34 @@
         "storm_scout:Gold",
         "storm_scout:CheatMaster"
       ]
+    },
+    {
+      "id": "mastery-monday-2026-08-31",
+      "title": "Mastery Monday",
+      "summary": "Mastery Monday window.",
+      "startUtc": "2026-08-31T13:00:00Z",
+      "endUtc": "2026-09-01T13:00:00Z"
+    },
+    {
+      "id": "downtime-v41-10-2026-09-03",
+      "title": "Downtime for v41.10",
+      "summary": "New loot hacks - Deadeye Assault Rifle, Strike Burst Rifle, Holo Twister Assault Rifle, Banana of the Golds, Rocket Ram",
+      "startUtc": "2026-09-03T06:00:00Z",
+      "endUtc": "2026-09-03T11:00:00Z"
+    },
+    {
+      "id": "downtime-v41-20-2026-09-17",
+      "title": "Downtime for v41.20",
+      "summary": "New loot hacks - Killswitch Revolvers, Mammoth Pistol, Reaper Sniper Rifle, Deadeye DMR, Flowberry Mist Grenade",
+      "startUtc": "2026-09-17T06:00:00Z",
+      "endUtc": "2026-09-17T11:00:00Z"
+    },
+    {
+      "id": "downtime-v41-30-2026-10-01",
+      "title": "Downtime for v41.30",
+      "summary": "New loot hacks - Wood Stake Shotgun, Dual Fiend Hunters, Witch Broom, Chainsaw, Last Call",
+      "startUtc": "2026-10-01T06:00:00Z",
+      "endUtc": "2026-10-01T11:00:00Z"
     }
   ]
 }
