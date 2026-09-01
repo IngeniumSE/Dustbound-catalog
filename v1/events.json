@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 17,
+  "eventsVersion": 18,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -259,7 +259,7 @@
     {
       "id": "downtime-v41-10-2026-09-03",
       "title": "Downtime for v41.10",
-      "summary": "New loot hacks - Deadeye Assault Rifle, Strike Burst Rifle, Holo Twister Assault Rifle, Banana of the Golds, Rocket Ram",
+      "summary": "New loot hacks - Deadeye Assault Rifle, Wrecker Revolver, Holo Twister Assault Rifle, Banana of the Golds, Rocket Ram",
       "startUtc": "2026-09-03T06:00:00Z",
       "endUtc": "2026-09-03T11:00:00Z"
     },
