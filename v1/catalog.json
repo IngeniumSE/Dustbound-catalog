@@ -1,13 +1,13 @@
 {
   "schemaVersion": 3,
-  "catalogVersion": 18,
+  "catalogVersion": 19,
   "imageVersion": 1,
   "meta": {
     "season": "C7S4",
     "asOf": "2026-09-01",
     "researched": "2026-08-20",
     "source": "C7S3 fortnite.gg scrape 2026-08-07; C7S4 launch roster maintainer-curated 2026-08-20 (recallDustCost 0 pending fortnite.gg)",
-    "notes": "C7S4 roster: 12 launch Sprites with Base/Gold/CheatMaster plus Onigiri and X-Ray (Base only); recallDustCost 0 and dropChancePercent omitted until fortnite.gg. C7S4 omitted from completeSprites/completeSeasons until the variant roster is final. C7S3 recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem removed (never listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed). schemaVersion 2 adds achievements{} — Achievement availability is catalog-driven; a completeness list gates both the collected and mastered axes of its scope, disableAchievement wins over all, globals (allCollected/allTime) stay off until their rosters are final. schemaVersion 3 adds seasons[].spriteOrder for In-game checklist sort."
+    "notes": "C7S4 roster: 12 launch Sprites with Base/Gold/CheatMaster plus Onigiri and X-Ray (Base only); recallDustCost 0 and dropChancePercent omitted until fortnite.gg. C7S4 omitted from completeSprites/completeSeasons and sprites[].closed until the variant roster is final. CheatMaster is not a closed Variant. Additive sprites[].closed / variants[].closed gate Collector/Master (explicit flag wins over completeSprites/completeVariants). C7S3 recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem removed (never listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed). schemaVersion 2 adds achievements{} — Achievement availability is catalog-driven; a completeness list gates both the collected and mastered axes of its scope, disableAchievement wins over all, globals (allCollected/allTime) stay off until their rosters are final. schemaVersion 3 adds seasons[].spriteOrder for In-game checklist sort."
   },
   "seasons": [
     {
@@ -47,151 +47,176 @@
       "id": "water",
       "name": "Water Sprite",
       "rarity": "Rare",
-      "abilitySummary": "Replenish shield for user + nearby squad while in water"
+      "abilitySummary": "Replenish shield for user + nearby squad while in water",
+      "closed": true
     },
     {
       "id": "earth",
       "name": "Earth Sprite",
       "rarity": "Rare",
-      "abilitySummary": "Chance of additional rare items from chests"
+      "abilitySummary": "Chance of additional rare items from chests",
+      "closed": true
     },
     {
       "id": "fire",
       "name": "Fire Sprite",
       "rarity": "Rare",
-      "abilitySummary": "Fiery burst after dealing enough damage"
+      "abilitySummary": "Fiery burst after dealing enough damage",
+      "closed": true
     },
     {
       "id": "fishy",
       "name": "Fishy Sprite",
       "rarity": "Rare",
-      "abilitySummary": "Faster swim; brief move-speed boost when damaged"
+      "abilitySummary": "Faster swim; brief move-speed boost when damaged",
+      "closed": true
     },
     {
       "id": "air",
       "name": "Air Sprite",
       "rarity": "Rare",
-      "abilitySummary": "Faster sprint, higher jump; nullifies fall damage"
+      "abilitySummary": "Faster sprint, higher jump; nullifies fall damage",
+      "closed": true
     },
     {
       "id": "duck",
       "name": "Duck Sprite",
       "rarity": "Epic",
-      "abilitySummary": "Emoting or Jamming replenishes shield"
+      "abilitySummary": "Emoting or Jamming replenishes shield",
+      "closed": true
     },
     {
       "id": "ghost",
       "name": "Ghost Sprite",
       "rarity": "Epic",
-      "abilitySummary": "Cloak for a short duration on reload"
+      "abilitySummary": "Cloak for a short duration on reload",
+      "closed": true
     },
     {
       "id": "demon",
       "name": "Demon Sprite",
       "rarity": "Epic",
-      "abilitySummary": "Siphon health + shield on elimination"
+      "abilitySummary": "Siphon health + shield on elimination",
+      "closed": true
     },
     {
       "id": "king",
       "name": "King Sprite",
       "rarity": "Epic",
-      "abilitySummary": "Increased Pickaxe damage"
+      "abilitySummary": "Increased Pickaxe damage",
+      "closed": true
     },
     {
       "id": "aura",
       "name": "Aura Sprite",
       "rarity": "Epic",
-      "abilitySummary": "Shock Rock charge after dealing enough damage"
+      "abilitySummary": "Shock Rock charge after dealing enough damage",
+      "closed": true
     },
     {
       "id": "striker",
       "name": "Striker Sprite",
       "rarity": "Epic",
-      "abilitySummary": "Overdrive on mantle / hurdle / wall scramble"
+      "abilitySummary": "Overdrive on mantle / hurdle / wall scramble",
+      "closed": true
     },
     {
       "id": "dream",
       "name": "Dream Sprite",
       "rarity": "Legendary",
-      "abilitySummary": "Random item each level-up; Legendary loot at max, then auto-extract / reset"
+      "abilitySummary": "Random item each level-up; Legendary loot at max, then auto-extract / reset",
+      "closed": true
     },
     {
       "id": "punk",
       "name": "Punk Sprite",
       "rarity": "Legendary",
-      "abilitySummary": "At high/mastery level, chance of unlimited ammo"
+      "abilitySummary": "At high/mastery level, chance of unlimited ammo",
+      "closed": true
     },
     {
       "id": "boss",
       "name": "Boss Sprite",
       "rarity": "Legendary",
-      "abilitySummary": "Boosts max Health and Shield"
+      "abilitySummary": "Boosts max Health and Shield",
+      "closed": true
     },
     {
       "id": "seven",
       "name": "Seven Sprite",
       "rarity": "Legendary",
-      "abilitySummary": "Enemy foot trails visible to nearby squad"
+      "abilitySummary": "Enemy foot trails visible to nearby squad",
+      "closed": true
     },
     {
       "id": "llama",
       "name": "Lootin' Llama Sprite",
       "rarity": "Legendary",
-      "abilitySummary": "Opening ammo boxes can upgrade weapon"
+      "abilitySummary": "Opening ammo boxes can upgrade weapon",
+      "closed": true
     },
     {
       "id": "peely",
       "name": "Peeky Peely Sprite",
       "rarity": "Legendary",
-      "abilitySummary": "Pings nearby rare Sprite variants / carriers; also reveals you"
+      "abilitySummary": "Pings nearby rare Sprite variants / carriers; also reveals you",
+      "closed": true
     },
     {
       "id": "zero_point",
       "name": "Zero Point Sprite",
       "rarity": "Mythic",
-      "abilitySummary": "Shield Bubble Jr. when using a healing item (excl. splashes/grenades)"
+      "abilitySummary": "Shield Bubble Jr. when using a healing item (excl. splashes/grenades)",
+      "closed": true
     },
     {
       "id": "burnt_peanut",
       "name": "Burnt Peanut",
       "rarity": "Mythic",
-      "abilitySummary": "Chance of extra (sometimes Mythic) loot on eliminations"
+      "abilitySummary": "Chance of extra (sometimes Mythic) loot on eliminations",
+      "closed": true
     },
     {
       "id": "grim",
       "name": "Grim Sprite",
       "rarity": "Mythic",
-      "abilitySummary": "Attackers are marked / scanned briefly"
+      "abilitySummary": "Attackers are marked / scanned briefly",
+      "closed": true
     },
     {
       "id": "batman",
       "name": "Batman Sprite",
       "rarity": "Mythic",
-      "abilitySummary": "Launch + deploy Bat Cape midair; better rare Sprite finds"
+      "abilitySummary": "Launch + deploy Bat Cape midair; better rare Sprite finds",
+      "closed": true
     },
     {
       "id": "vini_jr",
       "name": "Vini Jr. Sprite",
       "rarity": "Mythic",
-      "abilitySummary": "Sprint enables destructive slide; slide-kick buffs fire rate / reload"
+      "abilitySummary": "Sprint enables destructive slide; slide-kick buffs fire rate / reload",
+      "closed": true
     },
     {
       "id": "pollo",
       "name": "Pollo Sprite",
       "rarity": "Mythic",
-      "abilitySummary": "Eliminations slowly restore shield for user + nearby squad"
+      "abilitySummary": "Eliminations slowly restore shield for user + nearby squad",
+      "closed": true
     },
     {
       "id": "john_wick",
       "name": "John Wick Sprite",
       "rarity": "Mythic",
-      "abilitySummary": "After knock/elim, briefly reveal nearby enemies to squad"
+      "abilitySummary": "After knock/elim, briefly reveal nearby enemies to squad",
+      "closed": true
     },
     {
       "id": "ironmouse",
       "name": "Ironmouse Sprite",
       "rarity": "Mythic",
-      "abilitySummary": "While regenerating, gain Cloak and low gravity"
+      "abilitySummary": "While regenerating, gain Cloak and low gravity",
+      "closed": true
     },
     {
       "id": "klombo",
@@ -285,35 +310,43 @@
     },
     {
       "code": "Gold",
-      "bonusSummary": "3× bonus XP from eliminations"
+      "bonusSummary": "3× bonus XP from eliminations",
+      "closed": true
     },
     {
       "code": "Gummy",
-      "bonusSummary": "+20% Sprite Dust on successful extraction"
+      "bonusSummary": "+20% Sprite Dust on successful extraction",
+      "closed": true
     },
     {
       "code": "Galaxy",
-      "bonusSummary": "+30% ammo when looting"
+      "bonusSummary": "+30% ammo when looting",
+      "closed": true
     },
     {
       "code": "Holofoil",
-      "bonusSummary": "Squad-wide ~5% better chance to find rare Sprite Variants from chests"
+      "bonusSummary": "Squad-wide ~5% better chance to find rare Sprite Variants from chests",
+      "closed": true
     },
     {
       "code": "Gem",
-      "bonusSummary": "−30% fall damage"
+      "bonusSummary": "−30% fall damage",
+      "closed": true
     },
     {
       "code": "Quack",
-      "bonusSummary": "When Quack earns Sprite XP, other Sprites in inventory gain +50% of that XP"
+      "bonusSummary": "When Quack earns Sprite XP, other Sprites in inventory gain +50% of that XP",
+      "closed": true
     },
     {
       "code": "Cube",
-      "bonusSummary": "Overdrive while in the Storm"
+      "bonusSummary": "Overdrive while in the Storm",
+      "closed": true
     },
     {
       "code": "CheatMaster",
-      "bonusSummary": "Button mash! All inputs are correct when entering cheat codes found in the world."
+      "bonusSummary": "Button mash! All inputs are correct when entering cheat codes found in the world.",
+      "closed": false
     }
   ],
   "collectibles": [
