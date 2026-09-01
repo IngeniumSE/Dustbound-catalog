@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 20,
+  "eventsVersion": 21,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -263,7 +263,8 @@
       "startUtc": "2026-09-03T06:00:00Z",
       "endUtc": "2026-09-03T11:00:00Z",
       "collectibleIds": [
-        "onigiri:Base"
+        "onigiri:Base",
+        "xray:Base"
       ]
     },
     {
