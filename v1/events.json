@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 18,
+  "eventsVersion": 19,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -262,6 +262,26 @@
       "summary": "New loot hacks - Deadeye Assault Rifle, Wrecker Revolver, Holo Twister Assault Rifle, Banana of the Golds, Rocket Ram",
       "startUtc": "2026-09-03T06:00:00Z",
       "endUtc": "2026-09-03T11:00:00Z"
+    },
+    {
+      "id": "cheatmaster-power-hours-2026-09-05",
+      "title": "CheatMaster Power Hours",
+      "summary": "Cheat Master Klombo appears more often.",
+      "startUtc": "2026-09-05T18:00:00Z",
+      "endUtc": "2026-09-05T20:00:00Z",
+      "collectibleIds": [
+        "klombo:CheatMaster"
+      ]
+    },
+    {
+      "id": "cheatmaster-power-hours-2026-09-06",
+      "title": "CheatMaster Power Hours",
+      "summary": "Cheat Master Klombo appears more often.",
+      "startUtc": "2026-09-06T01:00:00Z",
+      "endUtc": "2026-09-06T03:00:00Z",
+      "collectibleIds": [
+        "klombo:CheatMaster"
+      ]
     },
     {
       "id": "downtime-v41-20-2026-09-17",
