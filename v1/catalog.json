@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogVersion": 31,
+  "catalogVersion": 32,
   "imageVersion": 3,
   "meta": {
     "season": "C7S4",
@@ -1882,8 +1882,7 @@
       "variantCode": "Base",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "onigiri:Gold",
@@ -1891,8 +1890,7 @@
       "variantCode": "Gold",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "onigiri:CheatMaster",
@@ -1900,8 +1898,7 @@
       "variantCode": "CheatMaster",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "onigiri:LootHacker",
@@ -1909,8 +1906,7 @@
       "variantCode": "LootHacker",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "xray:Base",
@@ -1918,8 +1914,7 @@
       "variantCode": "Base",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "xray:Gold",
@@ -1927,8 +1922,7 @@
       "variantCode": "Gold",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "xray:CheatMaster",
@@ -1936,8 +1930,7 @@
       "variantCode": "CheatMaster",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "xray:LootHacker",
@@ -1945,8 +1938,7 @@
       "variantCode": "LootHacker",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "overshield:Base",
@@ -1954,8 +1946,7 @@
       "variantCode": "Base",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "overshield:Gold",
@@ -1963,8 +1954,7 @@
       "variantCode": "Gold",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "overshield:CheatMaster",
@@ -1972,8 +1962,7 @@
       "variantCode": "CheatMaster",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "overshield:LootHacker",
@@ -1981,8 +1970,7 @@
       "variantCode": "LootHacker",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     },
     {
       "id": "megaman:Base",
@@ -1990,8 +1978,7 @@
       "variantCode": "Base",
       "seasonTag": "C7S4",
       "availability": "live",
-      "recallDustCost": 0,
-      "releaseDate": "2026-09-03T13:00:00Z"
+      "recallDustCost": 0
     }
   ]
 }
