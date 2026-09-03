@@ -1,13 +1,13 @@
 {
   "schemaVersion": 3,
-  "catalogVersion": 29,
-  "imageVersion": 1,
+  "catalogVersion": 30,
+  "imageVersion": 2,
   "meta": {
     "season": "C7S4",
     "asOf": "2026-09-03",
     "researched": "2026-08-20",
     "source": "C7S3 fortnite.gg scrape 2026-08-07; C7S4 launch roster maintainer-curated 2026-08-20 (recallDustCost 0 pending fortnite.gg)",
-    "notes": "C7S4 roster: 12 launch Sprites with Base/Gold/CheatMaster (Klombo, Sonic, Tails, Shadow, Jackrabbit, 8-Bit, Crown, Adventure, Jonesy, Killswitch, and Bush also LootHacker) plus Onigiri (Base/Gold/CheatMaster/LootHacker) and X-Ray (Base/Gold/CheatMaster/LootHacker); recallDustCost 0 and dropChancePercent omitted until fortnite.gg. C7S4 omitted from completeSprites/completeSeasons and sprites[].closed until the variant roster is final. CheatMaster and LootHacker are not closed Variants. Additive sprites[].closed / variants[].closed gate Collector/Master (explicit flag wins over completeSprites/completeVariants). C7S3 recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem removed (never listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed). schemaVersion 2 adds achievements{} — Achievement availability is catalog-driven; a completeness list gates both the collected and mastered axes of its scope, disableAchievement wins over all, globals (allCollected/allTime) stay off until their rosters are final. schemaVersion 3 adds seasons[].spriteOrder for In-game checklist sort."
+    "notes": "C7S4 roster: 12 launch Sprites with Base/Gold/CheatMaster (Klombo, Sonic, Tails, Shadow, Jackrabbit, 8-Bit, Crown, Adventure, Jonesy, Killswitch, and Bush also LootHacker) plus Onigiri (Base/Gold/CheatMaster/LootHacker), X-Ray (Base/Gold/CheatMaster/LootHacker), and Overshield (Base/Gold/CheatMaster/LootHacker); recallDustCost 0 and dropChancePercent omitted until fortnite.gg. C7S4 omitted from completeSprites/completeSeasons and sprites[].closed until the variant roster is final. CheatMaster and LootHacker are not closed Variants. Additive sprites[].closed / variants[].closed gate Collector/Master (explicit flag wins over completeSprites/completeVariants). C7S3 recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem removed (never listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed). schemaVersion 2 adds achievements{} — Achievement availability is catalog-driven; a completeness list gates both the collected and mastered axes of its scope, disableAchievement wins over all, globals (allCollected/allTime) stay off until their rosters are final. schemaVersion 3 adds seasons[].spriteOrder for In-game checklist sort."
   },
   "seasons": [
     {
@@ -58,7 +58,8 @@
         "killswitch",
         "storm_scout",
         "onigiri",
-        "xray"
+        "xray",
+        "overshield"
       ]
     }
   ],
@@ -365,6 +366,12 @@
       "name": "X-Ray Sprite",
       "rarity": "Epic",
       "abilitySummary": "Reveals players through walls and objects for a short time."
+    },
+    {
+      "id": "overshield",
+      "name": "Overshield Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Grants overshield, scaling with level"
     }
   ],
   "variants": [
@@ -1928,6 +1935,42 @@
     {
       "id": "xray:LootHacker",
       "spriteId": "xray",
+      "variantCode": "LootHacker",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0,
+      "releaseDate": "2026-09-03T13:00:00Z"
+    },
+    {
+      "id": "overshield:Base",
+      "spriteId": "overshield",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0,
+      "releaseDate": "2026-09-03T13:00:00Z"
+    },
+    {
+      "id": "overshield:Gold",
+      "spriteId": "overshield",
+      "variantCode": "Gold",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0,
+      "releaseDate": "2026-09-03T13:00:00Z"
+    },
+    {
+      "id": "overshield:CheatMaster",
+      "spriteId": "overshield",
+      "variantCode": "CheatMaster",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0,
+      "releaseDate": "2026-09-03T13:00:00Z"
+    },
+    {
+      "id": "overshield:LootHacker",
+      "spriteId": "overshield",
       "variantCode": "LootHacker",
       "seasonTag": "C7S4",
       "availability": "live",
