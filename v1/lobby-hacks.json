@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 7,
+  "lobbyHacksVersion": 10,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -8,9 +8,11 @@
     { "id": "chispambo", "code": "Chispambo", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
     { "id": "magilume", "code": "Magilume", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
     { "id": "h0p0nvc", "code": "H0p0nvc", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
+    { "id": "your-thoughts-are-mine", "code": "YourThoughtsAreMine", "reward": "Void Master Geno Sprite + 5,000 Sprite Dust (Requires Geno's hidden question completion)", "seasonTag": "C7S4" },
     { "id": "override-xp", "code": "OverrideXP", "reward": "40,000 Season XP", "seasonTag": "C7S4" },
     { "id": "i-wanna-fly-high", "code": "IWannaFlyHigh", "reward": "Cheat Master Tails Sprite", "seasonTag": "C7S4", "collectibleId": "tails:CheatMaster" },
     { "id": "take-your-heart", "code": "TakeYourHeart", "reward": "2× Extraction Accelerators", "seasonTag": "C7S4" },
+    { "id": "chat-where-do-you-find-the-key", "code": "ChatWhereDoYouFindTheKey", "reward": "2× Extraction Accelerators", "seasonTag": "C7S4" },
     { "id": "be-more-alien", "code": "BEMOREALIEN", "reward": "Override Ready Loading Screen", "seasonTag": "C7S4" },
     { "id": "perfect-order", "code": "PerfectOrder", "reward": "4× Spicy Tacos", "seasonTag": "C7S4" },
     { "id": "gotta-go-fast", "code": "GottaGoFast", "reward": "Cheat Master Sonic Sprite", "seasonTag": "C7S4", "collectibleId": "sonic:CheatMaster" },
