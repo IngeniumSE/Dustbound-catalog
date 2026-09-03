@@ -1741,6 +1741,14 @@
       "recallDustCost": 0
     },
     {
+      "id": "8bit:LootHacker",
+      "spriteId": "8bit",
+      "variantCode": "LootHacker",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0
+    },
+    {
       "id": "crown:CheatMaster",
       "spriteId": "crown",
       "variantCode": "CheatMaster",
