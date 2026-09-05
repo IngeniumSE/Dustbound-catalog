@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 11,
+  "lobbyHacksVersion": 12,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -27,6 +27,7 @@
     { "id": "play-4-all", "code": "Play4All", "reward": "Cheat Master Jonesy Sprite", "seasonTag": "C7S4", "collectibleId": "jonesy:CheatMaster" },
     { "id": "gather-and-craft", "code": "GatherAndCraft", "reward": "Cheat Master Bush Sprite", "seasonTag": "C7S4", "collectibleId": "bush:CheatMaster" },
     { "id": "jonesy-is-golden", "code": "JonesyIsGolden", "reward": "Gold Jonesy Sprite", "seasonTag": "C7S4", "collectibleId": "jonesy:Gold" },
-    { "id": "brb", "code": "BRB", "reward": "I'm not going to tell you what this does....", "seasonTag": "C7S4" }
+    { "id": "brb", "code": "BRB", "reward": "I'm not going to tell you what this does....", "seasonTag": "C7S4" },
+    { "id": "where-is-the-dusty-tree", "code": "WhereIsTheDustyTree", "reward": "5,000 Sprite Dust", "seasonTag": "C7S4" }
   ]
 }
