@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 21,
+  "eventsVersion": 22,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -285,6 +285,45 @@
       "endUtc": "2026-09-06T03:00:00Z",
       "collectibleIds": [
         "klombo:CheatMaster"
+      ]
+    },
+    {
+      "id": "mastery-monday-2026-09-07",
+      "title": "Mastery Monday",
+      "summary": "Mastery Monday window.",
+      "startUtc": "2026-09-07T13:00:00Z",
+      "endUtc": "2026-09-08T13:00:00Z"
+    },
+    {
+      "id": "new-sprites-2026-09-10",
+      "title": "New Sprites Day",
+      "startUtc": "2026-09-10T13:00:00Z",
+      "collectibleIds": [
+        "xray:LootHacker",
+        "klombo:LootHacker",
+        "overshield:LootHacker"
+      ]
+    },
+    {
+      "id": "power-hours-2026-09-12",
+      "title": "Power Hours",
+      "summary": "Cheat Master Storm Scout and Gold Onigiri appear more often.",
+      "startUtc": "2026-09-12T18:00:00Z",
+      "endUtc": "2026-09-12T20:00:00Z",
+      "collectibleIds": [
+        "storm_scout:CheatMaster",
+        "onigiri:Gold"
+      ]
+    },
+    {
+      "id": "power-hours-2026-09-13",
+      "title": "Power Hours",
+      "summary": "Cheat Master Storm Scout and Gold Onigiri appear more often.",
+      "startUtc": "2026-09-13T01:00:00Z",
+      "endUtc": "2026-09-13T03:00:00Z",
+      "collectibleIds": [
+        "storm_scout:CheatMaster",
+        "onigiri:Gold"
       ]
     },
     {
