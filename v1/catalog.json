@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogVersion": 32,
+  "catalogVersion": 33,
   "imageVersion": 3,
   "meta": {
     "season": "C7S4",
@@ -45,22 +45,20 @@
       "tag": "C7S4",
       "startUtc": "2026-08-20T08:00:00Z",
       "spriteOrder": [
-        "klombo",
+        "jonesy",
+        "adventure",
+        "bush",
         "sonic",
         "tails",
         "shadow",
-        "jackrabbit",
         "8bit",
+        "jackrabbit",
         "crown",
-        "adventure",
-        "bush",
-        "jonesy",
-        "killswitch",
-        "storm_scout",
-        "onigiri",
-        "xray",
+        "klombo",
+        "megaman",
         "overshield",
-        "megaman"
+        "xray",
+        "storm_scout"
       ]
     }
   ],
