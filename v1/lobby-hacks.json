@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 15,
+  "lobbyHacksVersion": 16,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -31,6 +31,7 @@
     { "id": "brb", "code": "BRB", "reward": "I'm not going to tell you what this does....", "seasonTag": "C7S4" },
     { "id": "where-is-the-dusty-tree", "code": "WhereIsTheDustyTree", "reward": "5,000 Sprite Dust", "seasonTag": "C7S4" },
     { "id": "noprollama", "code": "NOPROLLAMA", "reward": "Llama Supply Drop", "seasonTag": "C7S4" },
-    { "id": "dust-in-the-wind", "code": "DustInTheWind", "reward": "5,000 Sprite Dust", "seasonTag": "C7S4" }
+    { "id": "dust-in-the-wind", "code": "DustInTheWind", "reward": "5,000 Sprite Dust", "seasonTag": "C7S4" },
+    { "id": "nocturneop55n1", "code": "NOCTURNEOP55N1", "reward": "Edgerunners Lucy look", "seasonTag": "C7S4" }
   ]
 }
