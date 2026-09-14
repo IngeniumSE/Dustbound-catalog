@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 23,
+  "eventsVersion": 24,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -383,6 +383,13 @@
         "overshield:CheatMaster"
       ],
       "sourceUrl": "https://x.com/FireMonkey/status/2098409902649581761"
+    },
+    {
+      "id": "mastery-monday-2026-09-14",
+      "title": "Mastery Monday",
+      "summary": "Mastery Monday window.",
+      "startUtc": "2026-09-14T13:00:00Z",
+      "endUtc": "2026-09-15T13:00:00Z"
     },
     {
       "id": "downtime-v41-20-2026-09-17",
