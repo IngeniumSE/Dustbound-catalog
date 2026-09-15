@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 24,
+  "eventsVersion": 25,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -394,7 +394,7 @@
     {
       "id": "downtime-v41-20-2026-09-17",
       "title": "Downtime for v41.20",
-      "summary": "New loot hacks - Killswitch Revolvers, Mammoth Pistol, Reaper Sniper Rifle, Deadeye DMR, Flowberry Mist Grenade",
+      "summary": "New loot hacks - Hyperburst Pistol, Mammoth Pistol, Reaper Sniper Rifle, Deadeye DMR, Flowberry Mist Grenade",
       "startUtc": "2026-09-17T06:00:00Z",
       "endUtc": "2026-09-17T11:00:00Z"
     },
