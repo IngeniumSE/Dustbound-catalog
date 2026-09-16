@@ -8,5 +8,183 @@
     "researched": "2026-08-20",
     "source": "C7S3 fortnite.gg scrape 2026-08-07; C7S4 launch roster maintainer-curated 2026-08-20 (recallDustCost 0 pending fortnite.gg)",
     "notes": "C7S4 catalog v38 / image v7 (2026-09-16): Morgana, Crash Bandicoot, Blinky, Pond, and Birthday Sprites seeded Base-only with releaseDate 2026-09-17T13:00:00Z (v42.20). BountyHunter Collectible releaseDate 2026-09-24T13:00:00Z (Thu 24 Sep 2026 14:00 BST). Rarity omitted (TBD) for those five. BountyHunter (Reaper material) added only for Sprites that already have non-Base variants, plus new Bases with Variant Support (morgana, crash_bandicoot, blinky, birthday). Pond, Mega Man, and Base-only medallion/one-offs (john_wick, ironmouse, burnt_peanut, vini_jr, pollo) stay Base-only. Gummy/Holofoil return scrapped (#360/#10 closed). BountyHunter closed:false until the treatment is final. Artwork-only — events.json and lobby-hacks.json untouched. Trick-or-Treat skipped. C7S4 roster: 12 launch Sprites with Base/Gold/CheatMaster (Klombo, Sonic, Tails, Shadow, Jackrabbit, 8-Bit, Crown, Adventure, Jonesy, Killswitch, Storm Scout, and Bush also LootHacker) plus Onigiri (Base/Gold/CheatMaster/LootHacker), X-Ray (Base/Gold/CheatMaster/LootHacker), Overshield (Base/Gold/CheatMaster/LootHacker), and Mega Man (Base); recallDustCost 0 and dropChancePercent omitted until fortnite.gg. C7S4 omitted from completeSprites/completeSeasons and sprites[].closed until the variant roster is final. CheatMaster and LootHacker are not closed Variants. Additive sprites[].closed / variants[].closed gate Collector/Master (explicit flag wins over completeSprites/completeVariants). C7S3 recallDustCost and dropChancePercent from fortnite.gg; dropChancePercent is Sprite Chest % as listed (0 may mean currently unavailable). punk:Gem removed (never listed on fortnite.gg). seasons[] drives active-season checklist default (half-open [start,end); C7S3/C7S4 boundary 2026-08-20T08:00:00Z; C7S4 end not confirmed). schemaVersion 2 adds achievements{} — Achievement availability is catalog-driven; a completeness list gates both the collected and mastered axes of its scope, disableAchievement wins over all, globals (allCollected/allTime) stay off until their rosters are final. schemaVersion 3 adds seasons[].spriteOrder for In-game checklist sort."
-  }
+  },
+  "seasons": [
+    {
+      "tag": "C7S3",
+      "startUtc": "2026-06-06T08:00:00Z",
+      "endUtc": "2026-08-20T08:00:00Z",
+      "spriteOrder": [
+        "john_wick",
+        "batman",
+        "water",
+        "earth",
+        "fire",
+        "duck",
+        "ghost",
+        "dream",
+        "demon",
+        "punk",
+        "king",
+        "vini_jr",
+        "burnt_peanut",
+        "zero_point",
+        "fishy",
+        "striker",
+        "boss",
+        "grim",
+        "air",
+        "seven",
+        "ironmouse",
+        "pollo",
+        "llama",
+        "peely"
+      ]
+    },
+    {
+      "tag": "C7S4",
+      "startUtc": "2026-08-20T08:00:00Z",
+      "spriteOrder": [
+        "jonesy",
+        "adventure",
+        "bush",
+        "sonic",
+        "tails",
+        "shadow",
+        "8bit",
+        "jackrabbit",
+        "crown",
+        "klombo",
+        "megaman",
+        "overshield",
+        "xray",
+        "storm_scout",
+        "morgana",
+        "crash_bandicoot",
+        "blinky",
+        "pond",
+        "birthday"
+      ]
+    }
+  ],
+  "achievements": {
+    "completeSprites": [
+      "water",
+      "earth",
+      "fire",
+      "fishy",
+      "air",
+      "duck",
+      "ghost",
+      "demon",
+      "king",
+      "aura",
+      "striker",
+      "dream",
+      "punk",
+      "boss",
+      "seven",
+      "llama",
+      "peely",
+      "zero_point",
+      "burnt_peanut",
+      "grim",
+      "batman",
+      "vini_jr",
+      "pollo",
+      "john_wick",
+      "ironmouse"
+    ],
+    "completeVariants": [
+      "Gold",
+      "Gummy",
+      "Galaxy",
+      "Holofoil",
+      "Gem",
+      "Quack",
+      "Cube"
+    ],
+    "completeSeasons": [
+      "C7S3"
+    ],
+    "allCollectedAvailable": false,
+    "allTimeAvailable": false,
+    "disableAchievement": []
+  },
+  "sprites": [
+    {
+      "id": "water",
+      "name": "Water Sprite",
+      "rarity": "Rare",
+      "abilitySummary": "Replenish shield for user + nearby squad while in water",
+      "closed": true
+    }
+  ],
+  "variants": [
+    {
+      "code": "Base",
+      "bonusSummary": ""
+    },
+    {
+      "code": "BountyHunter",
+      "bonusSummary": "Chance to find Sprites when eliminating opponents. Only gains Sprite XP from eliminations unless the Sprite has special XP rules.",
+      "closed": false
+    }
+  ],
+  "collectibles": [
+    {
+      "id": "morgana:Base",
+      "spriteId": "morgana",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0,
+      "releaseDate": "2026-09-17T13:00:00Z"
+    },
+    {
+      "id": "crash_bandicoot:Base",
+      "spriteId": "crash_bandicoot",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0,
+      "releaseDate": "2026-09-17T13:00:00Z"
+    },
+    {
+      "id": "blinky:Base",
+      "spriteId": "blinky",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0,
+      "releaseDate": "2026-09-17T13:00:00Z"
+    },
+    {
+      "id": "pond:Base",
+      "spriteId": "pond",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0,
+      "releaseDate": "2026-09-17T13:00:00Z"
+    },
+    {
+      "id": "birthday:Base",
+      "spriteId": "birthday",
+      "variantCode": "Base",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0,
+      "releaseDate": "2026-09-17T13:00:00Z"
+    },
+    {
+      "id": "water:BountyHunter",
+      "spriteId": "water",
+      "variantCode": "BountyHunter",
+      "seasonTag": "C7S4",
+      "availability": "live",
+      "recallDustCost": 0,
+      "releaseDate": "2026-09-24T13:00:00Z"
+    }
+  ]
 }
