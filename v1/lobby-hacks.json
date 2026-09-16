@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 18,
+  "lobbyHacksVersion": 19,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -34,6 +34,7 @@
     { "id": "dust-in-the-wind", "code": "DustInTheWind", "reward": "5,000 Sprite Dust", "seasonTag": "C7S4" },
     { "id": "nocturneop55n1", "code": "NOCTURNEOP55N1", "reward": "Edgerunners Lucy look", "seasonTag": "C7S4" },
     { "id": "beam-me-up", "code": "BeamMeUp", "reward": "2× Extraction Accelerators (Gizmo)", "seasonTag": "C7S4" },
-    { "id": "blinky-inky-pinky-clyde", "code": "BlinkyInkyPinkyClyde", "reward": "TBD (Pac-Man)", "seasonTag": "C7S4" }
+    { "id": "blinky-inky-pinky-clyde", "code": "BlinkyInkyPinkyClyde", "reward": "TBD (Pac-Man)", "seasonTag": "C7S4" },
+    { "id": "sayh12wr1x3l", "code": "SAYH12WR1X3L", "reward": "Wrixel's Hero Portrait Spray", "seasonTag": "C7S4" }
   ]
 }
