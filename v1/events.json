@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 25,
+  "eventsVersion": 26,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -392,15 +392,15 @@
       "endUtc": "2026-09-15T13:00:00Z"
     },
     {
-      "id": "downtime-v41-20-2026-09-17",
-      "title": "Downtime for v41.20",
+      "id": "downtime-v42-20-2026-09-17",
+      "title": "Downtime for v42.20",
       "summary": "New loot hacks - Hyperburst Pistol, Mammoth Pistol, Reaper Sniper Rifle, Deadeye DMR, Flowberry Mist Grenade",
       "startUtc": "2026-09-17T06:00:00Z",
       "endUtc": "2026-09-17T11:00:00Z"
     },
     {
-      "id": "downtime-v41-30-2026-10-01",
-      "title": "Downtime for v41.30",
+      "id": "downtime-v42-30-2026-10-01",
+      "title": "Downtime for v42.30",
       "summary": "New loot hacks - Wood Stake Shotgun, Dual Fiend Hunters, Witch Broom, Chainsaw, Last Call",
       "startUtc": "2026-10-01T06:00:00Z",
       "endUtc": "2026-10-01T11:00:00Z"
