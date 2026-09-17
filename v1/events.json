@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 26,
+  "eventsVersion": 27,
   "meta": {
     "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
   },
@@ -397,6 +397,22 @@
       "summary": "New loot hacks - Hyperburst Pistol, Mammoth Pistol, Reaper Sniper Rifle, Deadeye DMR, Flowberry Mist Grenade",
       "startUtc": "2026-09-17T06:00:00Z",
       "endUtc": "2026-09-17T11:00:00Z"
+    },
+    {
+      "id": "kingdom-hearts-power-hours-2026-09-19",
+      "title": "Kingdom Hearts Power Hours",
+      "summary": "Everyone starts with the Kingdom Key and a Sea Salt Ice Cream. Hacker Sprite variants appear more often. 1-Up Tokens and Portable Extractors may drop from Chests.",
+      "startUtc": "2026-09-19T18:00:00Z",
+      "endUtc": "2026-09-19T20:00:00Z",
+      "sourceUrl": "https://x.com/FireMonkey/status/2100496422374187059"
+    },
+    {
+      "id": "kingdom-hearts-power-hours-2026-09-20",
+      "title": "Kingdom Hearts Power Hours",
+      "summary": "Everyone starts with the Kingdom Key and a Sea Salt Ice Cream. Hacker Sprite variants appear more often. 1-Up Tokens and Portable Extractors may drop from Chests.",
+      "startUtc": "2026-09-20T01:00:00Z",
+      "endUtc": "2026-09-20T03:00:00Z",
+      "sourceUrl": "https://x.com/FireMonkey/status/2100496422374187059"
     },
     {
       "id": "downtime-v42-30-2026-10-01",
