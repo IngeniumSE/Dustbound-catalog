@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 22,
+  "lobbyHacksVersion": 23,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -37,6 +37,8 @@
     { "id": "blinky-inky-pinky-clyde", "code": "BlinkyInkyPinkyClyde", "reward": "5,000 Sprite Dust", "seasonTag": "C7S4" },
     { "id": "sayh12wr1x3l", "code": "SAYH12WR1X3L", "reward": "Wrixel's Hero Portrait Spray", "seasonTag": "C7S4" },
     { "id": "destiny-awaits", "code": "DestinyAwaits", "reward": "2× Llama Supply Drops", "seasonTag": "C7S4" },
-    { "id": "chat-find-me-another-code", "code": "ChatFindMeAnotherCode", "reward": "2× Cheat Code Locators (Gizmo)", "seasonTag": "C7S4" }
+    { "id": "chat-find-me-another-code", "code": "ChatFindMeAnotherCode", "reward": "2× Cheat Code Locators (Gizmo)", "seasonTag": "C7S4" },
+    { "id": "9years", "code": "9Years", "reward": "9th Birthday Sprite Spray", "seasonTag": "C7S4" },
+    { "id": "almost-scaring-season", "code": "AlmostScaringSeason", "reward": "2× Cheat Code Locators", "seasonTag": "C7S4" }
   ]
 }
