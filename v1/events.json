@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 27,
+  "eventsVersion": 28,
   "meta": {
-    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X."
+    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. v28: Fortnite 9th Birthday Celebration (2026-09-21T05:13:00Z → v42.30 downtime); cakes/quests/Birthday Bus only — Birthday Sprite still New Sprite Day Thu 24 Sep."
   },
   "events": [
     {
@@ -413,6 +413,14 @@
       "startUtc": "2026-09-20T01:00:00Z",
       "endUtc": "2026-09-20T03:00:00Z",
       "sourceUrl": "https://x.com/FireMonkey/status/2100496422374187059"
+    },
+    {
+      "id": "fortnite-9th-birthday-2026-09-21",
+      "title": "Fortnite 9th Birthday Celebration",
+      "summary": "Birthday Bus, map cakes, and birthday quests. Complete 3 quests for the Birthday Back Bling, 6 for the Cake Crusher Pickaxe, and 9 for the FNCS Back Bling. Birthday Sprite is still aimed at New Sprite Day Thu 24 Sep 2026 — this window is cakes, quests, and the bus, not the sprite (unless Epic erred).",
+      "startUtc": "2026-09-21T05:13:00Z",
+      "endUtc": "2026-10-01T06:00:00Z",
+      "sourceUrl": "https://x.com/HYPEX/status/2101887515078660510"
     },
     {
       "id": "downtime-v42-30-2026-10-01",
