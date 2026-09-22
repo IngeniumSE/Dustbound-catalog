@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 23,
+  "lobbyHacksVersion": 24,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -39,6 +39,8 @@
     { "id": "destiny-awaits", "code": "DestinyAwaits", "reward": "2× Llama Supply Drops", "seasonTag": "C7S4" },
     { "id": "chat-find-me-another-code", "code": "ChatFindMeAnotherCode", "reward": "2× Cheat Code Locators (Gizmo)", "seasonTag": "C7S4" },
     { "id": "9years", "code": "9Years", "reward": "9th Birthday Sprite Spray", "seasonTag": "C7S4" },
-    { "id": "almost-scaring-season", "code": "AlmostScaringSeason", "reward": "2× Cheat Code Locators", "seasonTag": "C7S4" }
+    { "id": "almost-scaring-season", "code": "AlmostScaringSeason", "reward": "2× Cheat Code Locators", "seasonTag": "C7S4" },
+    { "id": "play-to-level-up", "code": "PlayToLevelUp", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
+    { "id": "magic-is-real", "code": "MagicIsReal", "reward": "5,000 Sprite Dust (Requires quest completion first)", "seasonTag": "C7S4" }
   ]
 }
