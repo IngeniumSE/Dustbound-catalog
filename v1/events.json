@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 28,
+  "eventsVersion": 29,
   "meta": {
-    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. v28: Fortnite 9th Birthday Celebration (2026-09-21T05:13:00Z → v42.30 downtime); cakes/quests/Birthday Bus only — Birthday Sprite still New Sprite Day Thu 24 Sep."
+    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. v28: Fortnite 9th Birthday Celebration (2026-09-21T05:13:00Z → v42.30 downtime); cakes/quests/Birthday Bus only — Birthday Sprite still New Sprite Day Thu 24 Sep. v29: Birthday Power Hours, two 3-hour sessions (2026-09-26T18:00:00Z–21:00:00Z and 2026-09-27T01:00:00Z–04:00:00Z); also https://x.com/ShiinaBR/status/2103525293583733191."
   },
   "events": [
     {
@@ -421,6 +421,22 @@
       "startUtc": "2026-09-21T05:13:00Z",
       "endUtc": "2026-10-01T06:00:00Z",
       "sourceUrl": "https://x.com/HYPEX/status/2101887515078660510"
+    },
+    {
+      "id": "birthday-power-hours-2026-09-26",
+      "title": "Birthday Power Hours",
+      "summary": "Battle Royale 9th birthday. Sessions are 3 hours instead of the usual 2. Everyone starts with Presents. The Exotic Balloon Popper AR appears in the wild. The Birthday Sprite joins.",
+      "startUtc": "2026-09-26T18:00:00Z",
+      "endUtc": "2026-09-26T21:00:00Z",
+      "sourceUrl": "https://x.com/FireMonkey/status/2103524642799391211"
+    },
+    {
+      "id": "birthday-power-hours-2026-09-27",
+      "title": "Birthday Power Hours",
+      "summary": "Battle Royale 9th birthday. Sessions are 3 hours instead of the usual 2. Everyone starts with Presents. The Exotic Balloon Popper AR appears in the wild. The Birthday Sprite joins.",
+      "startUtc": "2026-09-27T01:00:00Z",
+      "endUtc": "2026-09-27T04:00:00Z",
+      "sourceUrl": "https://x.com/FireMonkey/status/2103524642799391211"
     },
     {
       "id": "downtime-v42-30-2026-10-01",
