@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 24,
+  "lobbyHacksVersion": 25,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -41,6 +41,9 @@
     { "id": "9years", "code": "9Years", "reward": "9th Birthday Sprite Spray", "seasonTag": "C7S4" },
     { "id": "almost-scaring-season", "code": "AlmostScaringSeason", "reward": "2× Cheat Code Locators", "seasonTag": "C7S4" },
     { "id": "play-to-level-up", "code": "PlayToLevelUp", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
-    { "id": "magic-is-real", "code": "MagicIsReal", "reward": "5,000 Sprite Dust (Requires quest completion first)", "seasonTag": "C7S4" }
+    { "id": "magic-is-real", "code": "MagicIsReal", "reward": "5,000 Sprite Dust (Requires quest completion first)", "seasonTag": "C7S4" },
+    { "id": "dusty-sprites", "code": "DustySprites", "reward": "5,000 Sprite Dust", "seasonTag": "C7S4" },
+    { "id": "who-cracked-the-code", "code": "WhoCrackedTheCode", "reward": "40,000 XP", "seasonTag": "C7S4" },
+    { "id": "we-are-the-world-champions-today", "code": "WeAreTheWorldChampionsToday", "reward": "FNCS Backbling", "seasonTag": "C7S4" }
   ]
 }
