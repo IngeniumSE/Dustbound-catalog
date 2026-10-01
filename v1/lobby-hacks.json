@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 25,
+  "lobbyHacksVersion": 26,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -44,6 +44,12 @@
     { "id": "magic-is-real", "code": "MagicIsReal", "reward": "5,000 Sprite Dust (Requires quest completion first)", "seasonTag": "C7S4" },
     { "id": "dusty-sprites", "code": "DustySprites", "reward": "5,000 Sprite Dust", "seasonTag": "C7S4" },
     { "id": "who-cracked-the-code", "code": "WhoCrackedTheCode", "reward": "40,000 XP", "seasonTag": "C7S4" },
-    { "id": "we-are-the-world-champions-today", "code": "WeAreTheWorldChampionsToday", "reward": "FNCS Backbling", "seasonTag": "C7S4" }
+    { "id": "we-are-the-world-champions-today", "code": "WeAreTheWorldChampionsToday", "reward": "FNCS Backbling", "seasonTag": "C7S4" },
+    { "id": "powerout", "code": "POWEROUT", "reward": "Freddy Fazbear lobby jumpscare", "seasonTag": "C7S4" },
+    { "id": "run-system-override", "code": "runSystemOverride", "reward": "5,000 Sprite Dust (Requires quest completion first)", "seasonTag": "C7S4" },
+    { "id": "im-the-real-edgelord", "code": "ImTheRealEdgelord", "reward": "5,000 Sprite Dust (Requires quest completion first)", "seasonTag": "C7S4" },
+    { "id": "i-think-the-key-found-me-chat", "code": "IThinkTheKeyFoundMeChat", "reward": "Extraction Accelerator", "seasonTag": "C7S4" },
+    { "id": "crows-are-afraid", "code": "CrowsAreAfraid", "reward": "Scarecrow lobby occupants", "seasonTag": "C7S4" },
+    { "id": "pumpkin-spice-life", "code": "PumpkinSpiceLife", "reward": "Pumpkin lobby occupants", "seasonTag": "C7S4" }
   ]
 }
