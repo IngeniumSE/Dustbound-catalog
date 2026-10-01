@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "eventsVersion": 30,
   "meta": {
-    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. v28: Fortnite 9th Birthday Celebration (2026-09-21T05:13:00Z → v42.30 downtime); cakes/quests/Birthday Bus only — Birthday Sprite still New Sprite Day Thu 24 Sep. v29: Birthday Power Hours, two 3-hour sessions (2026-09-26T18:00:00Z–21:00:00Z and 2026-09-27T01:00:00Z–04:00:00Z); also https://x.com/ShiinaBR/status/2103525293583733191. v30: New Sprites Day 2026-10-01T13:00:00Z (spriteIds vampire, pumpkin; endUtc omitted like prior New Sprites Day rows). Bounty Hunter Sprites Power Hours 2026-10-03T18:00:00Z–20:00:00Z and 2026-10-04T01:00:00Z–03:00:00Z; everyone starts with the Dual Fiend Hunters; no spriteIds or collectibleIds (the post names the theme and the weapon, not catalog ids). https://beebom.com/fortnite-sprite-events-schedule/ https://x.com/ShiinaBR/status/2105421295647117580 https://x.com/FireMonkey/status/2105569481099501747."
+    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. v28: Fortnite 9th Birthday Celebration (2026-09-21T05:13:00Z → v42.30 downtime); cakes/quests/Birthday Bus only — Birthday Sprite still New Sprite Day Thu 24 Sep. v29: Birthday Power Hours, two 3-hour sessions (2026-09-26T18:00:00Z–21:00:00Z and 2026-09-27T01:00:00Z–04:00:00Z); also https://x.com/ShiinaBR/status/2103525293583733191. v30: New Sprites Day 2026-10-01T13:00:00Z (spriteIds phase_dash, vampire, deer, dumpster_dive; endUtc omitted like prior New Sprites Day rows). Bounty Hunter Sprites Power Hours 2026-10-03T18:00:00Z–20:00:00Z and 2026-10-04T01:00:00Z–03:00:00Z; everyone starts with the Dual Fiend Hunters; no spriteIds or collectibleIds (the post names the theme and the weapon, not catalog ids). https://beebom.com/fortnite-sprite-events-schedule/ https://x.com/ShiinaBR/status/2105421295647117580 https://x.com/FireMonkey/status/2105569481099501747."
   },
   "events": [
     {
@@ -457,8 +457,10 @@
       "title": "New Sprites Day",
       "startUtc": "2026-10-01T13:00:00Z",
       "spriteIds": [
+        "phase_dash",
         "vampire",
-        "pumpkin"
+        "deer",
+        "dumpster_dive"
       ],
       "sourceUrl": "https://beebom.com/fortnite-sprite-events-schedule/"
     },
