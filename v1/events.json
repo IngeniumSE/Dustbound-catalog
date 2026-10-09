@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 30,
+  "eventsVersion": 31,
   "meta": {
-    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. v28: Fortnite 9th Birthday Celebration (2026-09-21T05:13:00Z → v42.30 downtime); cakes/quests/Birthday Bus only — Birthday Sprite still New Sprite Day Thu 24 Sep. v29: Birthday Power Hours, two 3-hour sessions (2026-09-26T18:00:00Z–21:00:00Z and 2026-09-27T01:00:00Z–04:00:00Z); also https://x.com/ShiinaBR/status/2103525293583733191. v30: New Sprites Day 2026-10-01T13:00:00Z (spriteIds phase_dash, vampire, deer, dumpster_dive; endUtc omitted like prior New Sprites Day rows). Bounty Hunter Sprites Power Hours 2026-10-03T18:00:00Z–20:00:00Z and 2026-10-04T01:00:00Z–03:00:00Z; everyone starts with the Dual Fiend Hunters; no spriteIds or collectibleIds (the post names the theme and the weapon, not catalog ids). https://beebom.com/fortnite-sprite-events-schedule/ https://x.com/ShiinaBR/status/2105421295647117580 https://x.com/FireMonkey/status/2105569481099501747."
+    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. v28: Fortnite 9th Birthday Celebration (2026-09-21T05:13:00Z → v42.30 downtime); cakes/quests/Birthday Bus only — Birthday Sprite still New Sprite Day Thu 24 Sep. v29: Birthday Power Hours, two 3-hour sessions (2026-09-26T18:00:00Z–21:00:00Z and 2026-09-27T01:00:00Z–04:00:00Z); also https://x.com/ShiinaBR/status/2103525293583733191. v30: New Sprites Day 2026-10-01T13:00:00Z (spriteIds phase_dash, vampire, deer, dumpster_dive; endUtc omitted like prior New Sprites Day rows). Bounty Hunter Sprites Power Hours 2026-10-03T18:00:00Z–20:00:00Z and 2026-10-04T01:00:00Z–03:00:00Z; everyone starts with the Dual Fiend Hunters; no spriteIds or collectibleIds (the post names the theme and the weapon, not catalog ids). https://beebom.com/fortnite-sprite-events-schedule/ https://x.com/ShiinaBR/status/2105421295647117580 https://x.com/FireMonkey/status/2105569481099501747. v31: Spooky Dash Sprites Power Hours 2026-10-10T18:00:00Z–20:00:00Z and 2026-10-11T01:00:00Z–03:00:00Z; each round is 2 hours, confirmed by Epic. spriteIds deer, vampire, phase_dash. https://communities.epicgames.com/thread/power-hours-spooky-dash-sprites-october-10/nrHH also https://x.com/FireMonkey/status/2108256918980657160."
   },
   "events": [
     {
@@ -479,6 +479,32 @@
       "startUtc": "2026-10-04T01:00:00Z",
       "endUtc": "2026-10-04T03:00:00Z",
       "sourceUrl": "https://x.com/FireMonkey/status/2105569481099501747"
+    },
+    {
+      "id": "power-hour-2026-10-10",
+      "title": "Spooky Dash Sprites Power Hours",
+      "summary": "Spooky Dash Sprites featuring The Deer, Vampire and Spooky Dash. Everyone drops with a Witch Broom, plus extra Pumpkin Chests that may also drop 1-Up Tokens and Portable Extractors.",
+      "startUtc": "2026-10-10T18:00:00Z",
+      "endUtc": "2026-10-10T20:00:00Z",
+      "spriteIds": [
+        "deer",
+        "vampire",
+        "phase_dash"
+      ],
+      "sourceUrl": "https://communities.epicgames.com/thread/power-hours-spooky-dash-sprites-october-10/nrHH"
+    },
+    {
+      "id": "power-hour-2026-10-11",
+      "title": "Spooky Dash Sprites Power Hours",
+      "summary": "Spooky Dash Sprites featuring The Deer, Vampire and Spooky Dash. Everyone drops with a Witch Broom, plus extra Pumpkin Chests that may also drop 1-Up Tokens and Portable Extractors.",
+      "startUtc": "2026-10-11T01:00:00Z",
+      "endUtc": "2026-10-11T03:00:00Z",
+      "spriteIds": [
+        "deer",
+        "vampire",
+        "phase_dash"
+      ],
+      "sourceUrl": "https://communities.epicgames.com/thread/power-hours-spooky-dash-sprites-october-10/nrHH"
     }
   ]
 }
