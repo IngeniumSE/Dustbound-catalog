@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 28,
+  "lobbyHacksVersion": 29,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -52,6 +52,7 @@
     { "id": "crows-are-afraid", "code": "CrowsAreAfraid", "reward": "Scarecrow lobby occupants", "seasonTag": "C7S4" },
     { "id": "pumpkin-spice-life", "code": "PumpkinSpiceLife", "reward": "Pumpkin lobby occupants", "seasonTag": "C7S4" },
     { "id": "s7h50pr03", "code": "s7h-50p-r03", "reward": "TBD", "seasonTag": "C7S4" },
-    { "id": "very-scary-pumpkin", "code": "VeryScaryPumpkin", "reward": "3 Snack-O'-Lantern Gizmos", "seasonTag": "C7S4" }
+    { "id": "very-scary-pumpkin", "code": "VeryScaryPumpkin", "reward": "3 Snack-O'-Lantern Gizmos", "seasonTag": "C7S4" },
+    { "id": "door2door4candy", "code": "Door2Door4Candy", "reward": "TBD", "seasonTag": "C7S4" }
   ]
 }
