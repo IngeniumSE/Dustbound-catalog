@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "eventsVersion": 34,
+  "eventsVersion": 35,
   "meta": {
-    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. v28: Fortnite 9th Birthday Celebration (2026-09-21T05:13:00Z → v42.30 downtime); cakes/quests/Birthday Bus only — Birthday Sprite still New Sprite Day Thu 24 Sep. v29: Birthday Power Hours, two 3-hour sessions (2026-09-26T18:00:00Z–21:00:00Z and 2026-09-27T01:00:00Z–04:00:00Z); also https://x.com/ShiinaBR/status/2103525293583733191. v30: New Sprites Day 2026-10-01T13:00:00Z (spriteIds phase_dash, vampire, deer, dumpster_dive; endUtc omitted like prior New Sprites Day rows). Bounty Hunter Sprites Power Hours 2026-10-03T18:00:00Z–20:00:00Z and 2026-10-04T01:00:00Z–03:00:00Z; everyone starts with the Dual Fiend Hunters; no spriteIds or collectibleIds (the post names the theme and the weapon, not catalog ids). https://beebom.com/fortnite-sprite-events-schedule/ https://x.com/ShiinaBR/status/2105421295647117580 https://x.com/FireMonkey/status/2105569481099501747. v31: Spooky Dash Sprites Power Hours 2026-10-10T18:00:00Z–20:00:00Z and 2026-10-11T01:00:00Z–03:00:00Z; each round is 2 hours, confirmed by Epic. spriteIds deer, vampire, phase_dash. https://communities.epicgames.com/thread/power-hours-spooky-dash-sprites-october-10/nrHH also https://x.com/FireMonkey/status/2108256918980657160. v32: Mastery Monday 2026-10-12T13:00:00Z–2026-10-13T13:00:00Z. v33: Mastery Monday 2026-10-12 summary set (double Sprite XP, double Sprite Dust from extractions, more Legendary and Mythic Sprite appearances, extra Portable Extractors from Daily Quests). sourceUrl https://x.com/FireMonkey/status/2109639879084912675 also https://www.vice.com/en/article/fortnite-mastery-monday-october-12-start-times-bonuses/. v34: New Sprites Day 2026-10-15T13:00:00Z (id new-sprite-day-2026-10-15; spriteIds honey only; summary names Honey; One Wish Willow stays held and is not on this event; endUtc omitted like prior New Sprites Day rows, so the window runs until 2026-10-16T13:00:00Z). sourceUrl https://x.com/FireMonkey/status/2110003308761158004 also https://x.com/HYPEX/status/2110004056236470760."
+    "notes": "UTC-only Event times. Curate by hand with sourceUrl attribution; do not scrape X. v28: Fortnite 9th Birthday Celebration (2026-09-21T05:13:00Z → v42.30 downtime); cakes/quests/Birthday Bus only — Birthday Sprite still New Sprite Day Thu 24 Sep. v29: Birthday Power Hours, two 3-hour sessions (2026-09-26T18:00:00Z–21:00:00Z and 2026-09-27T01:00:00Z–04:00:00Z); also https://x.com/ShiinaBR/status/2103525293583733191. v30: New Sprites Day 2026-10-01T13:00:00Z (spriteIds phase_dash, vampire, deer, dumpster_dive; endUtc omitted like prior New Sprites Day rows). Bounty Hunter Sprites Power Hours 2026-10-03T18:00:00Z–20:00:00Z and 2026-10-04T01:00:00Z–03:00:00Z; everyone starts with the Dual Fiend Hunters; no spriteIds or collectibleIds (the post names the theme and the weapon, not catalog ids). https://beebom.com/fortnite-sprite-events-schedule/ https://x.com/ShiinaBR/status/2105421295647117580 https://x.com/FireMonkey/status/2105569481099501747. v31: Spooky Dash Sprites Power Hours 2026-10-10T18:00:00Z–20:00:00Z and 2026-10-11T01:00:00Z–03:00:00Z; each round is 2 hours, confirmed by Epic. spriteIds deer, vampire, phase_dash. https://communities.epicgames.com/thread/power-hours-spooky-dash-sprites-october-10/nrHH also https://x.com/FireMonkey/status/2108256918980657160. v32: Mastery Monday 2026-10-12T13:00:00Z–2026-10-13T13:00:00Z. v33: Mastery Monday 2026-10-12 summary set (double Sprite XP, double Sprite Dust from extractions, more Legendary and Mythic Sprite appearances, extra Portable Extractors from Daily Quests). sourceUrl https://x.com/FireMonkey/status/2109639879084912675 also https://www.vice.com/en/article/fortnite-mastery-monday-october-12-start-times-bonuses/. v34: New Sprites Day 2026-10-15T13:00:00Z (id new-sprite-day-2026-10-15; spriteIds honey only; summary names Honey; One Wish Willow stays held and is not on this event; endUtc omitted like prior New Sprites Day rows, so the window runs until 2026-10-16T13:00:00Z). sourceUrl https://x.com/FireMonkey/status/2110003308761158004 also https://x.com/HYPEX/status/2110004056236470760. v35: new-sprite-day-2026-10-15 now includes one_wish_willow alongside honey (spriteIds honey, one_wish_willow; summary names Honey Sprite and One Wish Willow Sprite). startUtc stays 2026-10-15T13:00:00Z; endUtc still omitted."
   },
   "events": [
     {
@@ -517,10 +517,11 @@
     {
       "id": "new-sprite-day-2026-10-15",
       "title": "New Sprites Day",
-      "summary": "Honey Sprite.",
+      "summary": "Honey Sprite and One Wish Willow Sprite.",
       "startUtc": "2026-10-15T13:00:00Z",
       "spriteIds": [
-        "honey"
+        "honey",
+        "one_wish_willow"
       ],
       "sourceUrl": "https://x.com/FireMonkey/status/2110003308761158004"
     }
