@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lobbyHacksVersion": 31,
+  "lobbyHacksVersion": 32,
   "hacks": [
     { "id": "reach-your-impossible", "code": "ReachYourImpossible", "reward": "Block Party Loading Screen", "seasonTag": "C7S4" },
     { "id": "perlimpinpin", "code": "Perlimpinpin", "reward": "2,000 Sprite Dust", "seasonTag": "C7S4" },
@@ -56,6 +56,7 @@
     { "id": "door2door4candy", "code": "Door2Door4Candy", "reward": "2× Extraction Accelerators", "seasonTag": "C7S4" },
     { "id": "b1gbodysw3rve", "code": "B1GBODYSW3RVE", "reward": "Yeat lobby music: Lil Krazy (also Lil Krazy / Lurking)", "seasonTag": "C7S4" },
     { "id": "pr1vat3j3t", "code": "PR1VAT3J3T", "reward": "Yeat lobby music: MARCHING", "seasonTag": "C7S4" },
-    { "id": "luhleakyz", "code": "LUHLEAKYZ", "reward": "Yeat lobby music: Time Passed", "seasonTag": "C7S4" }
+    { "id": "luhleakyz", "code": "LUHLEAKYZ", "reward": "Yeat lobby music: Time Passed", "seasonTag": "C7S4" },
+    { "id": "suppliesforthehunt", "code": "SuppliesForTheHunt", "reward": "2× Snack-O'-Lantern Gizmos", "seasonTag": "C7S4" }
   ]
 }
